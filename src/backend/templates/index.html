@@ -1,0 +1,25 @@
+{% from 'field-macro.html' import displayField %}
+{% extends "prelogin-layout.html" %}
+
+{% block content %}
+
+<form id="registration-form" action="{{ url_for('index') }}" method="POST">
+    <div style="text-align:center;">
+        <h2 class="display-4">Welcome to</h2>
+        <h1 class="lead">AiCoinXpert</h1>
+    </div>
+    <h2>Registration</h2>
+    <p style="color: #020101;">First time here ? Register to start using <b><big>AiCoinXpert</big></b></p>
+    
+    {{ displayField(form.email, 'Email', autocomplete="off", autofocus=true) }}
+    {{ displayField(form.first_name, 'First name') }}
+    {{ displayField(form.last_name, 'Last name') }}
+    {{ displayField(form.password, 'Password') }}
+    {{ displayField(form.confirm_pswd, 'Retype Password') }}
+    <p style= "text-align: center; color: #000000;">Already registered ? <a href={{url_for('login')}}>Login here</a>.</p>
+    <div class="form-group">
+        <div style="text-align: center;">
+            <input type="submit" value="Create" class="btn btn-warning">
+        </div>
+</form>
+{% endblock %}

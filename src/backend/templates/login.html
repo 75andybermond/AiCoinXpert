@@ -1,0 +1,16 @@
+{% from 'field-macro.html' import displayField %}
+{% extends "prelogin-layout.html" %}
+
+{% block title %}Login {% endblock %}
+
+{% block content %}
+    <form action="{{ url_for('login')}}" method="POST">
+        <h2>Member Login</h2>
+        {{ displayField(form.email, 'Email', autocomplete="off", autofocus=true) }}
+        {{ displayField(form.password, 'Password') }}
+        <p style="color: #000000;">New user ? New account ? <a href={{url_for('index')}}>Sign up here</a>.</p>
+        <div class="form-group">
+            <input type="submit" value="Login" class="btn btn-warning">
+        </div>
+    </form>
+{% endblock %}

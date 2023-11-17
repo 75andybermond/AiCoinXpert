@@ -1,0 +1,7 @@
+train: data/train
+val: data/valid
+test: data/test
+
+# Classes
+nc: 8
+names: ['EUR-1-cent', 'EUR-1-euro', 'EUR-10-cent', 'EUR-2-cent', 'EUR-2-euro', 'EUR-20-cent', 'EUR-5-cent', 'EUR-50-cent']

@@ -1,0 +1,26 @@
+{
+  "name": "poetry3-poetry-pyenv",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "postCreateCommand": "poetry update",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "njpwerner.autodocstring",
+        "ms-toolsai.jupyter",
+        "GitHub.copilot-chat",
+        "GitHub.copilot"
+      ]
+    }
+  },
+  "runArgs": [
+    "--network",
+    "host",
+    "--device=/dev/video0",
+    "--device=/dev/video2",
+    "--gpus", "all"
+  ]
+}
