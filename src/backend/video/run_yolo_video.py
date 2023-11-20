@@ -15,7 +15,7 @@ MODEL_PATH = "/workspaces/AICoinXpert/runs/detect/train38/weights/best.pt"
 
 # Configure the logging settings with the custom formatter
 logging.basicConfig(
-    filename="/workspaces/AICoinXpert/src/backend/video/tmp/detection_log.txt",
+    filename="src/backend/video/tmp/detection_log.txt",
     level=logging.INFO,  # Set the logging level to INFO
     format="%(asctime)s - %(levelname)s - %(message)s",
     datefmt="%Y%m%d_%H%M%S",  # Define log format

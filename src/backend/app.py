@@ -17,7 +17,7 @@ MIN_CERTAINTY = 50  # Minimum certainty for a coin to be considered valid (in %)
 PROBABILITY_THRESHOLD = (
     0.5  # Threshold for the classifier to consider a prediction valid
 )
-classifier = ImageClassifier() # Initialize the classifier
+classifier = ImageClassifier()  # Initialize the classifier
 
 
 @login.user_loader
@@ -212,7 +212,7 @@ def video():
 async def run_data_processing():
     """Run data processing asynchronously."""
     data_processor = DataProcessor(
-        log_path="/workspaces/AICoinXpert/src/backend/video/tmp/detection_log.txt",
+        log_path="/src/backend/video/tmp/detection_log.txt",
         picture_path="/workspaces/AICoinXpert/src/backend/video/tmp/images",
         send_to_database=True,
         save_to_minio=True,

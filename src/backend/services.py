@@ -1,5 +1,8 @@
 """Services and funtions for database."""
 # pylint: disable=E0401
+import gzip
+import pickle
+
 import jellyfish
 import minio_minio as _minio
 import models as _models
@@ -179,15 +182,43 @@ def get_coin_with_picture(coin_name: str):
         print("Picture not found.")
 
 
+#### services to reduce model size ####
+
+
+def compress_model(model, path: str) -> None:
+    """Compress .pth model to lighter vesions.
+
+    Args:
+        model (pth): Model to compress.
+        path (str): Path to save the model.
+    """
+    with gzip.GzipFile(path, "wb") as f:
+        pickle.dump(model, f)
+
+
+def load_model(path: str) -> object:
+    """Load compressed model.
+
+    Args:
+        path (str): Path to the model.
+
+    Returns:
+        (Pickle_object): Model loaded.
+    """
+    with gzip.GzipFile(path, "rb") as f:
+        model = pickle.load(f)
+    return model
+
+
 def main():
     """Main function."""
     _add_table()
     _make_bucket()
-    insert_csv("/workspaces/AICoinXpert/algo/webscraping/coins_to_db.csv", "coins")
-    _send_pictures(
-        _models.Buckets.BASED_PICTURES.value,
-        "/workspaces/AICoinXpert/algo/webscraping/data/selected_coins_above20",
-    )
+    # insert_csv("/workspaces/AICoinXpert/algo/webscraping/coins_to_db.csv", "coins")
+    # _send_pictures(
+    #     _models.Buckets.BASED_PICTURES.value,
+    #     "/workspaces/AICoinXpert/algo/webscraping/data/selected_coins_above20",
+    # )
 
 
 #### Scrpit sending datas to database and pictures to minio synchronyously ####

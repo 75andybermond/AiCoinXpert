@@ -1,5 +1,5 @@
-BACKEND=/workspaces/AICoinXpert/src/backend
-TEST=/workspaces/AICoinXpert/src/test
+BACKEND=src/backend
+TEST=src/test
 
 launch_docker: # Start database and server . To be executed outside of docker container
 	docker compose up

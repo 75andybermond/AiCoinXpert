@@ -1,13 +1,26 @@
 """Minio client."""
 import base64
-import logging
 import os
+import subprocess
 from io import BytesIO
 
 import requests
 from minio import Minio
 from minio.error import S3Error
 from PIL import Image
+
+
+def get_container_ip() -> str:
+    """Get the IP address of the Minio in conainer.
+
+    Returns:
+        str: The ip address.
+    """
+    result = subprocess.run(
+        ["/workspaces/AiCoinXpert/script_ip_minio.sh"], stdout=subprocess.PIPE
+    )
+    ip_address = result.stdout.decode("utf-8")
+    return ip_address.strip()
 
 
 class MinioClient:
@@ -17,8 +30,8 @@ class MinioClient:
 
     def __init__(
         self,
-        endpoint="172.18.0.4:9000",  # It changes at each docker compose up TODO: Fix this
-        access_key="minioadmin",  # Could be 172.19.0.3:9000 can be a range up to a lot
+        endpoint=f"{get_container_ip()}:9000",
+        access_key="minioadmin",
         secret_key="minioadmin",
         secure=False,
     ):
@@ -45,7 +58,6 @@ class MinioClient:
 
     def delete_bucket(self, bucket_name):
         """Delete a bucket from the minio server.
-
 
         Args:
             bucket_name (str): The name of the bucket to be deleted.

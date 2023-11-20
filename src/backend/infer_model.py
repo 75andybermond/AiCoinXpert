@@ -7,15 +7,17 @@ from typing import Callable, Tuple
 import matplotlib.pyplot as plt
 import torch
 from PIL import Image
-from torchvision import datasets, transforms
+from services import load_model
+from torchvision import transforms
 from torchvision.models.efficientnet import efficientnet_b7
 
 # pylint: disable=no-member
 
+
 TRAIN_DIR = Path(
-    "/workspaces/AICoinXpert/algo/webscraping/data/organized_images_above_20/"
+    "/workspaces/AiCoinXpert/algo/webscraping/data/organized_images_above_20"
 )
-MODEL_PATH = Path("/workspaces/AICoinXpert/model03_08_23_57.pth")
+MODEL_PATH = load_model(Path("model.pkl.gz"))
 
 
 class ImageClassifier:
@@ -24,22 +26,21 @@ class ImageClassifier:
     def __init__(self) -> None:
         self.train_dir = TRAIN_DIR
         self.model_save_path = MODEL_PATH
-        self.output_classes_number = None
+        self.output_classes_number = 198
         self.model = None
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.setup_dataset()
+        # self.setup_dataset()
         self.load_model()
 
-    def setup_dataset(self, dataset_dir: str = None) -> None:
-        """Setup the dataset used in training to get the classes and the number of classes.
+    # def setup_dataset(self, dataset_dir: str = None) -> None:
+    #     """Setup the dataset used in training to get the classes and the number of classes.
 
-        Args:
-            dataset_dir (str, optional): Location path of the dataset.
-        """
-        if dataset_dir is not None:
-            self.train_dir = Path(dataset_dir)
-        self.train_dataset = datasets.ImageFolder(self.train_dir)
-        self.output_classes_number = len(self.train_dataset.class_to_idx)
+    #     Args:
+    #         dataset_dir (str, optional): Location path of the dataset.
+    #     """
+    #     if dataset_dir is not None:
+    #         self.train_dir = Path(dataset_dir)
+    #     self.train_dataset = datasets.ImageFolder(self.train_dir)
 
     def load_model(self, model_save_path: str = None) -> None:
         """Load and prepare the model.

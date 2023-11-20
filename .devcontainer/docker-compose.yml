@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   source-postgres:
@@ -52,24 +52,7 @@ services:
       "
     networks:
       - my-network
-      
-  test:
-    image: nvidia/cuda:11.7.1-devel-ubuntu20.04
-    command: nvidia-smi
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
-  # nvidia-smi:
-  #   image: nvidia/cuda:11.7.1-devel-ubuntu20.04
-  #   runtime: nvidia
-  #   command: nvidia-smi
-  #   networks:
-  #     - my-network
-      
+
   dev-env:
     build:
       context: .
@@ -82,7 +65,6 @@ services:
       - "8000:8000"
     networks:
       - my-network
-    runtime: nvidia
 
 networks:
   my-network:
