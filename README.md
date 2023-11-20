@@ -1,4 +1,4 @@
-# Projet Named "AiCoinXpert"
+# "AiCoinXpert"
 
 ## Description
 
