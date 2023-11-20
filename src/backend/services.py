@@ -212,13 +212,13 @@ def load_model(path: str) -> object:
 
 def main():
     """Main function."""
-    _add_table()
-    _make_bucket()
-    # insert_csv("/workspaces/AICoinXpert/algo/webscraping/coins_to_db.csv", "coins")
-    # _send_pictures(
-    #     _models.Buckets.BASED_PICTURES.value,
-    #     "/workspaces/AICoinXpert/algo/webscraping/data/selected_coins_above20",
-    # )
+    #_add_table()
+    #_make_bucket()
+    insert_csv("/workspaces/AiCoinXpert/algo/webscraping/coins_to_db.csv", "coins")
+    _send_pictures(
+        _models.Buckets.BASED_PICTURES.value,
+        "/workspaces/AiCoinXpert/algo/webscraping/data/selected_coins_above20",
+    )
 
 
 #### Scrpit sending datas to database and pictures to minio synchronyously ####

@@ -5,19 +5,10 @@
 
 # datas
 
-algo/webscraping/data/image_folder
-algo/webscraping/data/organized_images
-algo/webscraping/data/organized_images_above_20
-algo/webscraping/data/pool_20_above_filtered
-algo/webscraping/data/pool_of_images
-algo/webscraping/data/selected_80_percent_filtered
-algo/webscraping/data/selected_coins_above20
-algo/webscraping/data/unseen_coins
 /tmp
 /wandb
 /runs
 algo/webscraping/*.parquet
-algo/webscraping/*.csv
 db/
 src/backend/video/tmp/*
 
