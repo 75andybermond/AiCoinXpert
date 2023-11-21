@@ -212,7 +212,7 @@ def video():
 async def run_data_processing():
     """Run data processing asynchronously."""
     data_processor = DataProcessor(
-        log_path="/src/backend/video/tmp/detection_log.txt",
+        log_path="/workspaces/AiCoinXpert/src/backend/video/tmp/detection_log.txt",
         picture_path="/workspaces/AICoinXpert/src/backend/video/tmp/images",
         send_to_database=True,
         save_to_minio=True,

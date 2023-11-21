@@ -11,7 +11,7 @@ from ultralytics import YOLO
 
 # pylint: disable=no-member
 # pylint: disable=invalid-name
-MODEL_PATH = "/workspaces/AICoinXpert/runs/detect/train38/weights/best.pt"
+MODEL_PATH = "/workspaces/AiCoinXpert/src/backend/video/best.pt"
 
 # Configure the logging settings with the custom formatter
 logging.basicConfig(
