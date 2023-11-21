@@ -1,0 +1,65 @@
+
+h1 {
+  color: #d2b420;
+  font-size: 200px;
+  background-color: #f8f3f3;
+  margin-top: 0;
+  border-radius: 25px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center buttons horizontally */
+}
+
+.button-wrapper {
+    text-align: center;
+    margin: 13em; /* Add some vertical margin between buttons */
+}
+
+.btn-primary_wallet,
+.btn-primary_video {
+  background-color: #eed767;
+  color: #000000;
+  font-size: 101px;
+  padding: 1em 2em;
+  border-radius: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-btn-danger {
+    position: absolute;
+    top: 250px; /* Adjust the top value to move the button down */
+    right: 0;
+    font-size: 35px;
+    border-radius: 15px;
+    padding-right: 10px; /* Add some padding to the right side */
+}
+
+
+.leaderboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+body {
+  background-color:#d5c8c8;
+}
+
+.user_info {
+    position: absolute;
+    top: 220px; /* Adjust the top value to move the button down */
+    left: 0;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.first-name {
+    font-weight: bold;
+    color: #375baf; /* Change the color to your desired style */
+}
