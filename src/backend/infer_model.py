@@ -17,7 +17,7 @@ from torchvision.models.efficientnet import efficientnet_b7
 TRAIN_DIR = Path(
     "/workspaces/AiCoinXpert/algo/webscraping/data/organized_images_above_20"
 )
-MODEL_PATH = (Path("/workspaces/AiCoinXpert/model03_08_23_57.pth"))
+MODEL_PATH = load_model(Path("model.pkl.gz"))
 
 
 class ImageClassifier:
