@@ -14,7 +14,11 @@ from flask_wtf.csrf import CSRFProtect
 # pylint: disable=E0401
 # import db as _database
 
-app = Flask(__name__, template_folder='/workspaces/AiCoinXpert/src/frontend/templates', static_folder='/workspaces/AiCoinXpert/src/frontend/static')
+app = Flask(
+    __name__,
+    template_folder="/workspaces/AiCoinXpert/src/frontend/templates",
+    static_folder="/workspaces/AiCoinXpert/src/frontend/static",
+)
 app.secret_key = "replace later"
 app.config[
     "SQLALCHEMY_DATABASE_URI"

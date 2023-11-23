@@ -4,12 +4,12 @@ import gzip
 import pickle
 
 import jellyfish
-import minio_minio as _minio
-import models as _models
 import pandas as pd
 from sqlalchemy import inspect
 from sqlalchemy.exc import OperationalError
 
+import backend.minio_minio as _minio
+import backend.models as _models
 import db as _database
 
 #### Services for database ####
@@ -212,8 +212,8 @@ def load_model(path: str) -> object:
 
 def main():
     """Main function."""
-    #_add_table()
-    #_make_bucket()
+    # _add_table()
+    # _make_bucket()
     insert_csv("/workspaces/AiCoinXpert/algo/webscraping/coins_to_db.csv", "coins")
     _send_pictures(
         _models.Buckets.BASED_PICTURES.value,

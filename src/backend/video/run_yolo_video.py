@@ -1,9 +1,7 @@
 """Run the Yolo models with webcam setup and object drawing and saving"""
-import argparse
 import datetime
 import logging
 import time
-import tkinter as tk
 
 import cv2
 import numpy.typing as npt
@@ -12,7 +10,6 @@ from ultralytics import YOLO
 # pylint: disable=no-member
 # pylint: disable=invalid-name
 MODEL_PATH = "/workspaces/AiCoinXpert/src/backend/video/best.pt"
-
 # Configure the logging settings with the custom formatter
 logging.basicConfig(
     filename="src/backend/video/tmp/detection_log.txt",
@@ -25,12 +22,12 @@ logging.basicConfig(
 class YOLODetector:
     """Yolo object detector."""
 
-    def __init__(self, camera_index: int, model_path: str, threshold: float):
+    def __init__(self, camera, model_path: str, threshold: float):
         self.model = YOLO(model_path)
         self.threshold = threshold
-        self.cap = cv2.VideoCapture(camera_index)
-        self.root = tk.Tk()
-        self.root.protocol("WM_DELETE_WINDOW", self.on_close)
+        self.cap = camera
+        # self.root = tk.Tk()
+        # self.root.protocol("WM_DELETE_WINDOW", self.on_close)
         self.is_running = False
         self.start_time = time.time()
         self.frame_count = 0
@@ -49,12 +46,11 @@ class YOLODetector:
                 results = self.model(frame)[0]
 
                 # Draw bounding boxes and class labels on the frame
-                self.draw_objects(frame, results, confidence_threshold=65)
+                self.draw_objects(frame, results, confidence_threshold=0)
 
                 # Display the frame with bounding boxes and class labels using OpenCV
-                cv2.imshow("YOLO Object Detection", frame)
+                cv2.imwrite(f"YOLO_Object_Detection_{self.frame_count}.jpg", frame)
 
-                # Handle keyboard events
                 self.handle_events()
 
         except cv2.error as error_cv2:
@@ -98,10 +94,11 @@ class YOLODetector:
                 if confidence > confidence_threshold:
                     cropped_image = frame[y1:y2, x1:x2]
                     current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-                    image_filename = f"/workspaces/AICoinXpert/src/backend/video/tmp/images/{current_time},{x1:.3f},{y1:.3f},{x2:.3f},{y2:.3f}.jpg"
+                    image_filename = f"/workspaces/AiCoinXpert/src/backend/video/tmp/images/{current_time},{x1:.3f},{y1:.3f},{x2:.3f},{y2:.3f}.jpg"
                     cv2.imwrite(
                         image_filename, cropped_image, [cv2.IMWRITE_JPEG_QUALITY, 100]
                     )
+
                     cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 4)
                     logging.info(
                         f"Class: {class_name}, Degree Of Certainty: {confidence}, Region Of Interest:[x1: {x1:.3f},y1: {y1:.3f}, x2: {x2:.3f}, y2: {y2:.3f}]"
@@ -123,7 +120,7 @@ class YOLODetector:
 
                 # Process your frame (e.g., object detection)
                 results = self.model(frame)[0]
-                self.draw_objects(frame, results, confidence_threshold=65)
+                self.draw_objects(frame, results, confidence_threshold=70)
 
                 # Resize the frame
                 frame = cv2.resize(frame, (0, 0), fx=2.5, fy=2.5)
@@ -138,16 +135,16 @@ class YOLODetector:
         except KeyboardInterrupt:
             print("Keyboard interrupt detected. Stopping YOLO object detection.")
 
-    def handle_events(self):
-        """Perform stopping webcam by pressing button "q"."""
-        key = cv2.waitKeyEx(1)
-        if key == ord("q"):
-            self.on_close()
+    # def handle_events(self):
+    #     """Perform stopping webcam by pressing button "q"."""
+    #     key = cv2.waitKeyEx(1)
+    #     if key == ord("q"):
+    #         self.on_close()
 
     def on_close(self):
         """Close the loop running."""
         self.is_running = False
-        self.root.quit()
+        self.cap.release()
 
     def start(self):
         """Start the video frame."""

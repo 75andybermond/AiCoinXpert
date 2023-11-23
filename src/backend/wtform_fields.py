@@ -1,9 +1,10 @@
 """Module for wtform fields"""
 from flask_wtf import FlaskForm
-from models import Users
 from passlib.hash import pbkdf2_sha256
 from wtforms import PasswordField, StringField
 from wtforms.validators import EqualTo, InputRequired, Length, ValidationError
+
+from backend.models import Users
 
 
 def invalid_credentials(form, field):

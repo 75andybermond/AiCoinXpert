@@ -19,6 +19,7 @@ setup:
 	sudo apt-get install libsm6
 	sudo apt-get install libgl1-mesa-glx
 	sudo apt-get install libglib2.0-dev
+	sudo apt-get install libgtk2.0-dev
 	poetry add opencv-python
 .PHONY: setup_project
 

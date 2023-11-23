@@ -4,13 +4,15 @@ from datetime import datetime
 
 from flask import Response, flash, redirect, render_template, url_for
 from flask_login import current_user, login_required, login_user, logout_user
-from infer_model import ImageClassifier
-from log_processor import DataProcessor
-from minio_minio import DisplayMinio
-from models import Buckets, Predictions, Users, app, db, login
-from services import find_coins_in_database
-from video.run_yolo_video import MODEL_PATH, YOLODetector
-from wtform_fields import LoginForm, RegistrationForm, pbkdf2_sha256
+
+from backend.camera.fake import FakeCamera
+from backend.infer_model import ImageClassifier
+from backend.log_processor import DataProcessor
+from backend.minio_minio import DisplayMinio
+from backend.models import Buckets, Predictions, Users, app, db, login
+from backend.services import find_coins_in_database
+from backend.video.run_yolo_video import MODEL_PATH, YOLODetector
+from backend.wtform_fields import LoginForm, RegistrationForm, pbkdf2_sha256
 
 # pylint: disable=unexpected-keyword-arg
 MIN_CERTAINTY = 50  # Minimum certainty for a coin to be considered valid (in %)
@@ -173,7 +175,8 @@ def generate_frames():
     Yields:
         bytes: Frames in HTTP multipart format
     """
-    detector = YOLODetector(camera_index=2, model_path=MODEL_PATH, threshold=0.5)
+    fake_camera = FakeCamera()
+    detector = YOLODetector(camera=fake_camera, model_path=MODEL_PATH, threshold=0.1)
 
     try:
         while True:
@@ -213,7 +216,7 @@ async def run_data_processing():
     """Run data processing asynchronously."""
     data_processor = DataProcessor(
         log_path="/workspaces/AiCoinXpert/src/backend/video/tmp/detection_log.txt",
-        picture_path="/workspaces/AICoinXpert/src/backend/video/tmp/images",
+        picture_path="/workspaces/AiCoinXpert/src/backend/video/tmp/images",
         send_to_database=True,
         save_to_minio=True,
         min_certainty=MIN_CERTAINTY,
@@ -247,7 +250,6 @@ async def classify_image():
         image_data = minio_pic.get_object_by_name(
             Buckets.USERS_PICTURES.value, image_name
         )
-        global classifier
         # Predict the class of the image using the classifier
         prediction = await classifier.predict_image(
             probability_threshold=PROBABILITY_THRESHOLD,
