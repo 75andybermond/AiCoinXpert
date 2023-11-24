@@ -17,7 +17,7 @@ def get_container_ip() -> str:
         str: The ip address.
     """
     result = subprocess.run(
-        ["/workspaces/AiCoinXpert/script_ip_minio.sh"], stdout=subprocess.PIPE
+        ["/workspaces/AiCoinXpert/scripts/script_ip_minio.sh"], stdout=subprocess.PIPE
     )
     ip_address = result.stdout.decode("utf-8")
     return ip_address.strip()

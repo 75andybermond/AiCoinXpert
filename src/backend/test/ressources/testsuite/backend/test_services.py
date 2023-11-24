@@ -1,20 +1,16 @@
-import sys
+import json
+import time
 
 import pytest
-import time
-import json
 
-sys.path.insert(0, "/workspaces/AICoinXpert/src/")
-
-from test.ressources.backend import services_db as _services
-from backend.log_processor import DataProcessor
-from backend.services import find_coins_in_database
-from backend.services import display_data_from_table
-from test.ressources.backend.flask_integration import (
-    prepare_data_for_bdd,
-    extract_all_coordinates_in_logs,
-)
 from backend import minio_minio as minio
+from backend.log_processor import DataProcessor
+from backend.services import display_data_from_table, find_coins_in_database
+from backend.test.ressources.backend import services_db as _services
+from backend.test.ressources.backend.flask_integration import (
+    extract_all_coordinates_in_logs,
+    prepare_data_for_bdd,
+)
 
 
 def test_add_table(test_db):
@@ -32,7 +28,7 @@ def test_data_saved_to_db_and_minio(clean_data):
     time.sleep(5)  # wait for the databse to be updated
 
     check_log_last_elements = extract_all_coordinates_in_logs(
-        log_path="/workspaces/AICoinXpert/src/backend/video/tmp/detection_log.txt"
+        log_path="/workspaces/AiCoinXpert/src/backend/video/tmp/detection_log.txt"
     )
 
     # Get the last 10 elements in the log file by the latest date
@@ -86,7 +82,10 @@ def test_coin_found_in_db_from_predictions():
         }
     ]
 
-    result = find_coins_in_database(table_name="coins", coin_class="Autriche-1-Euro-2014-3022800-155540004211316.jpg")
+    result = find_coins_in_database(
+        table_name="coins",
+        coin_class="Autriche-1-Euro-2014-3022800-155540004211316.jpg",
+    )
 
     if result != expected_result:
         pytest.fail(f"Expected result: {expected_result} but got {result}")
