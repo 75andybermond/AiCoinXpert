@@ -9,6 +9,7 @@ from backend.models import Buckets
 @pytest.fixture(scope="session")
 def test_db():
     """Create a test database."""
+    _services.remove_database("test_db")
     _services.create_database("test_db")
     yield
     _services.remove_database("test_db")

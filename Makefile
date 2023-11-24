@@ -22,7 +22,13 @@ setup:
 	sudo apt-get install libglib2.0-dev
 	sudo apt-get install libgtk2.0-dev
 	sudo apt-get install tmux
+
+	# allow auto completion Makefile
+	sudo apt-get install bash-completion
+	complete -W "\`grep -oE '^[a-zA-Z0-9_.-]+:([^=]|$)' Makefile | sed 's/[^a-zA-Z0-9_.-]*$//'\`" make
+	
 	poetry add opencv-python
+
 .PHONY: setup_project
 
 upload_main_data: # If the image is rebuild / need to create first a database ' docker exec -it devcontainer-source-postgres-1 bash ' command is : createdb coins_db
@@ -37,9 +43,12 @@ format: # Check format, sort imports and run pylint
 .PHONY: format
 
 up: # Run the app
-	tmux new-session -d -s mysession 'poetry run python ${BACKEND}/app.py'
+	poetry run python ${BACKEND}/app.py &
 	sleep 10
-	tmux new-session -d -s monitor 'make monitoring'
+	make monitoring
+#tmux new-session -d -s mysession 'poetry run python ${BACKEND}/app.py'
+#sleep 15
+#tmux new-session -d -s monitor 'make monitoring'
 .PHONY: up
 
 backend_test: # Run the backend tests

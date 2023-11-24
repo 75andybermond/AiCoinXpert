@@ -1,5 +1,6 @@
 import os
 import re
+import time
 import smtplib
 import sys
 from datetime import datetime
@@ -49,7 +50,7 @@ def check_if_all_tests_passed() -> list:
 
 
 def send_email_notification(
-    subject: str, failed_tests: list, receiver_email="andy.bermond75@gmail.com"
+    subject: str, failed_tests: list, runtime: float, receiver_email="andy.bermond75@gmail.com"
 ):
     """Function that sends an email notification if any test failed"""
     sender_email = "andy.bermond75@gmail.com"
@@ -61,8 +62,9 @@ def send_email_notification(
     message["To"] = receiver_email
     message["Subject"] = subject
 
-    # Attach the body of the email
-    body = failed_tests.to_html()
+    # Attach the body of the email 
+    # add in the body how many times the app has been run
+    body = f"App runtime before test fail: {runtime} seconds\n\n" + failed_tests.to_html()
     message.attach(MIMEText(body, "html"))
 
     with smtplib.SMTP(SmtpServer.gmail, 587) as server:
@@ -77,12 +79,17 @@ def send_email_notification(
 
     print("Email sent successfully")
 
+def calculate_runtime(start_time: float, end_time: float) -> float:
+    """Function that calculates the runtime of the script"""    
+    return end_time - start_time
 
 def main():
+    start_time = time.time()
     create_dataframe_from_logs()
     failed_tests = check_if_all_tests_passed()
+    end_time = time.time()
     if not failed_tests.empty:
-        send_email_notification("Test results", failed_tests)
+        send_email_notification("Test results", failed_tests, calculate_runtime(start_time, end_time))
 
 
 if __name__ == "__main__":
