@@ -4,7 +4,8 @@ version = "0.1.0"
 description = ""
 authors = ["Andy <andy@anotherbrain.ai>"]
 readme = "README.md"
-packages = [{ include = "backend", from = "src" }]
+packages = [{ include = "backend", from = "src" },
+            { include = "test", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"

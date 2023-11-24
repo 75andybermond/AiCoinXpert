@@ -1,15 +1,8 @@
-import json
-import sys
-import time
-
 import pytest
 import requests
 from bs4 import BeautifulSoup
 
-sys.path.insert(0, "/workspaces/AICoinXpert/src/")
-
-from test.ressources.backend.flask_integration import Users_Creation
-
+from backend.test.ressources.backend.flask_integration import Users_Creation
 
 BASE_URL = "http://127.0.0.1:5000"
 

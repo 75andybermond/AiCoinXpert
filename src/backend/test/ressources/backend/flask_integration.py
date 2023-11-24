@@ -1,10 +1,10 @@
+import json
+import re
 import uuid
 from dataclasses import dataclass
 
 import pandas as pd
 from faker import Faker
-import json
-import re
 
 fake = Faker()
 

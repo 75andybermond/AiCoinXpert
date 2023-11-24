@@ -4,26 +4,23 @@ A series of helper functions used throughout the course.
 If a function gets defined once and could be used over and over, it'll go in here.
 """
 import json
-from collections import defaultdict
-
-import torch
-from torch import nn
-import matplotlib.pyplot as plt
-import numpy as np
-from sklearn.metrics import classification_report, confusion_matrix
-
 import os
 import zipfile
-
+from collections import defaultdict
 from pathlib import Path
+from typing import List
 
+import matplotlib.pyplot as plt
+import numpy as np
 import requests
+import torch
+import torchvision
+from sklearn.metrics import classification_report, confusion_matrix
+from torch import nn
 
 # Walk through an image classification directory and find out how many files (images)
 # are in each subdirectory.
 
-from typing import List
-import torchvision
 
 
 def walk_through_dir(dir_path):

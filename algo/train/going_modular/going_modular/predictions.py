@@ -3,17 +3,17 @@ Utility functions to make predictions.
 
 Main reference for code creation: https://www.learnpytorch.io/06_pytorch_transfer_learning/#6-make-predictions-on-images-from-the-test-set 
 """
-import torch
-import torchvision
-from torchvision import transforms
-import matplotlib.pyplot as plt
-
 from typing import List, Tuple
 
+import matplotlib.pyplot as plt
+import torch
+import torchvision
 from PIL import Image
+from torchvision import transforms
 
 # Set device
 device = "cuda" if torch.cuda.is_available() else "cpu"
+
 
 # Predict on a target image with a target model
 # Function created in: https://www.learnpytorch.io/06_pytorch_transfer_learning/#6-make-predictions-on-images-from-the-test-set
@@ -80,4 +80,3 @@ def pred_and_plot_image(
         f"Pred: {class_names[target_image_pred_label]} | Prob: {target_image_pred_probs.max():.3f}"
     )
     plt.axis(False)
-

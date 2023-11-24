@@ -1,11 +1,11 @@
 """
 Contains functions for training and testing a PyTorch model.
 """
-import torch
-
-from tqdm.auto import tqdm
 from typing import Dict, List, Tuple
+
+import torch
 from sklearn.model_selection import ParameterGrid
+from tqdm.auto import tqdm
 
 
 def train_step(
@@ -228,16 +228,15 @@ def train(
 
     # Make sure model on target device
     model.to(device)
-    
+
     best_params = None
     best_test_acc = 0.0
     epochs_no_improve = 0
-    
+
     param_combinations = list(ParameterGrid(param_grid))
 
     # Loop through training and testing steps for a number of epochs
     for epoch in tqdm(range(epochs)):
-
         # Loop through each combination of hyperparameters
         for params in param_combinations:
             print(f"Epoch: {epoch+1} | Params: {params}")
@@ -300,5 +299,5 @@ def train(
             results["test_loss"].append(test_loss)
             results["test_acc"].append(test_acc)
             print(f"Best params: {best_params}")
-            
+
     return results

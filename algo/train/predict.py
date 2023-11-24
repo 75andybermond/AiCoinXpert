@@ -6,10 +6,9 @@ from warnings import filterwarnings
 import matplotlib.pyplot as plt
 import torch
 import torchvision
+from models_name import Device, ModelName
 from PIL import Image
 from torchvision import transforms
-
-from models_name import Device, ModelName
 from train import CustomDataset, Model
 
 filterwarnings("ignore")

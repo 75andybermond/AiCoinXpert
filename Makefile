@@ -1,5 +1,6 @@
 BACKEND=src/backend
-TEST=src/test
+TEST=src/backend/test
+SESSION_NAME=monitor
 
 launch_docker: # Start database and server . To be executed outside of docker container
 	docker compose up
@@ -20,6 +21,7 @@ setup:
 	sudo apt-get install libgl1-mesa-glx
 	sudo apt-get install libglib2.0-dev
 	sudo apt-get install libgtk2.0-dev
+	sudo apt-get install tmux
 	poetry add opencv-python
 .PHONY: setup_project
 
@@ -34,26 +36,35 @@ format: # Check format, sort imports and run pylint
 	pylint ${BACKEND}
 .PHONY: format
 
-format_test: # Check format, sort imports and run pylint
-	black ${TEST}
-	isort ${TEST}
-	pylint ${TEST}
-.PHONY: format_test
-
 up: # Run the app
-	poetry run python ${BACKEND}/app.py
+	tmux new-session -d -s mysession 'poetry run python ${BACKEND}/app.py'
+	sleep 10
+	tmux new-session -d -s monitor 'make monitoring'
 .PHONY: up
 
 backend_test: # Run the backend tests
-	pytest -p no:warnings /workspaces/AICoinXpert/src/test/ressources/testsuite/backend/ -v
-	lsof -i :5000 # Check if the server is running on port 5000
-	kill -9 $$(lsof -t -i:5000) # Kill the server
+	pytest -p no:warnings /workspaces/AiCoinXpert/src/backend/test/ressources/testsuite/backend -v
 	make clean_pictures
 .PHONY: backend_test
 
+clean_process: # Kill the server
+	-tmux kill-session -t mysession 
+	-tmux kill-session -t monitor
+	lsof -i :5000
+	kill -9 $$(lsof -t -i:5000)
+.PHONY: clean_process
+
 clean_pictures: # Clean the pictures in the tmp folder
-	rm -rf /workspaces/AICoinXpert/src/backend/video/tmp/images/*
+	rm -rf /workspaces/AiCoinXpert/src/backend/video/tmp/images/*
 .PHONY: clean_pictures
+
+monitoring:
+	./scripts/monitoring.sh
+.PHONY: monitoring
+
+inspect_sessions:
+	tmux attach-session -t $(SESSION_NAME)
+.PHONY: inspect_sessions
 
 # docker compose up
 # create table 'coins_db' in postgresql -- command --> ///

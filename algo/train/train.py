@@ -1,19 +1,18 @@
 from __future__ import division, print_function
 
-from datetime import datetime
-
 import time
 from dataclasses import dataclass
+from datetime import datetime
 from typing import List, Optional
 
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import wandb
+from sklearn.metrics import confusion_matrix
 from torch.utils.data import DataLoader
 from torchvision import models, transforms
 from torchvision.datasets import ImageFolder
-from sklearn.metrics import confusion_matrix
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 

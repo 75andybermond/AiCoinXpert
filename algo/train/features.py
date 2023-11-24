@@ -1,8 +1,8 @@
-import torch
 import numpy as np
-from torchvision.datasets import ImageFolder
-from torchvision import models, transforms
+import torch
 from torch.utils.data import DataLoader
+from torchvision import models, transforms
+from torchvision.datasets import ImageFolder
 from tqdm import tqdm
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
