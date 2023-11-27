@@ -10,7 +10,7 @@ from sqlalchemy.exc import OperationalError
 
 import backend.minio_minio as _minio
 import backend.models as _models
-import db as _database
+import backend.db as _database
 
 #### Services for database ####
 

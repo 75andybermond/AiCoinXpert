@@ -27,6 +27,7 @@ def create_dataframe_from_logs():
         df = pd.read_csv("scripts/test_results.csv")
     else:
         df = pd.DataFrame(columns=["test_name", "result", "datetime"])
+        df.to_csv("scripts/test_results.csv", index=False) 
 
     # Read the test results from standard input into a list of dictionaries
     for line in sys.stdin:
