@@ -9,7 +9,7 @@ from matplotlib.animation import FuncAnimation
 
 
 class Webcam:
-    def __init__(self, camera_index=2):
+    def __init__(self, camera_index=0):
         self.camera_index = camera_index
         self.cap = cv2.VideoCapture(self.camera_index)
         self.fig, self.ax = plt.subplots()
@@ -31,5 +31,5 @@ class Webcam:
 
 
 if __name__ == "__main__":
-    webcam = Webcam(camera_index=2)
+    webcam = Webcam(camera_index=0)
     webcam.start()

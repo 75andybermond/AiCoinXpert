@@ -1,0 +1,878 @@
+20231207_112625 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_112625 - INFO - [33mPress CTRL+C to quit[0m
+20231207_112625 - INFO -  * Restarting with stat
+20231207_112629 - WARNING -  * Debugger is active!
+20231207_112629 - INFO -  * Debugger PIN: 650-632-081
+20231207_112634 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:34] "GET / HTTP/1.1" 200 -
+20231207_112634 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:34] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_112634 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:34] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_112634 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:34] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231207_112637 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:37] "GET /login HTTP/1.1" 200 -
+20231207_112637 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:37] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_112638 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:38] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_112641 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231207_112641 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:41] "GET /dashboard HTTP/1.1" 200 -
+20231207_112641 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:41] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_112645 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:45] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_112645 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:45] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_112645 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:45] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_112646 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:46] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_112654 - INFO - Class: EUR-2-euro, Degree Of Certainty: 84, Region Of Interest:[x1: 144.000,y1: 27.000, x2: 297.000, y2: 169.000]
+20231207_112654 - INFO - 127.0.0.1 - - [07/Dec/2023 11:26:54] "GET /streaming HTTP/1.1" 200 -
+20231207_112654 - INFO - Class: EUR-2-euro, Degree Of Certainty: 84, Region Of Interest:[x1: 145.000,y1: 28.000, x2: 297.000, y2: 169.000]
+20231207_112654 - INFO - Class: EUR-2-euro, Degree Of Certainty: 86, Region Of Interest:[x1: 142.000,y1: 28.000, x2: 297.000, y2: 170.000]
+20231207_112654 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 144.000,y1: 29.000, x2: 297.000, y2: 170.000]
+20231207_112655 - INFO - Class: EUR-2-euro, Degree Of Certainty: 85, Region Of Interest:[x1: 148.000,y1: 29.000, x2: 297.000, y2: 170.000]
+20231207_112655 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 293.000, y2: 167.000]
+20231207_112655 - INFO - Class: EUR-1-cent, Degree Of Certainty: 68, Region Of Interest:[x1: 0.000,y1: 138.000, x2: 100.000, y2: 247.000]
+20231207_112655 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_112655 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_112656 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 291.000, y2: 166.000]
+20231207_112656 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112656 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 165.000]
+20231207_112656 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 165.000]
+20231207_112656 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 164.000]
+20231207_112657 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 291.000, y2: 166.000]
+20231207_112657 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112657 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_112657 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 164.000]
+20231207_112657 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 165.000]
+20231207_112658 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 14.000, x2: 291.000, y2: 166.000]
+20231207_112658 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_112658 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112658 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 163.000]
+20231207_112658 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 291.000, y2: 163.000]
+20231207_112659 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_112659 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 291.000, y2: 164.000]
+20231207_112659 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 164.000]
+20231207_112700 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112700 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 164.000]
+20231207_112700 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_112700 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 164.000]
+20231207_112700 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 291.000, y2: 166.000]
+20231207_112700 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112700 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 291.000, y2: 165.000]
+20231207_112701 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 14.000, x2: 291.000, y2: 165.000]
+20231207_112701 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112701 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112701 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 14.000, x2: 291.000, y2: 165.000]
+20231207_112701 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112701 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 165.000]
+20231207_112702 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112702 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 291.000, y2: 164.000]
+20231207_112702 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112702 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 14.000, x2: 291.000, y2: 166.000]
+20231207_112702 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 291.000, y2: 164.000]
+20231207_112702 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_112703 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_112709 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 294.000, y2: 167.000]
+20231207_112709 - INFO - 127.0.0.1 - - [07/Dec/2023 11:27:09] "GET /streaming HTTP/1.1" 200 -
+20231207_112709 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 294.000, y2: 167.000]
+20231207_112709 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 131.000,y1: 10.000, x2: 294.000, y2: 166.000]
+20231207_112709 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 10.000, x2: 295.000, y2: 166.000]
+20231207_112710 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 294.000, y2: 166.000]
+20231207_112710 - INFO - Class: EUR-1-cent, Degree Of Certainty: 67, Region Of Interest:[x1: 0.000,y1: 138.000, x2: 98.000, y2: 249.000]
+20231207_112710 - INFO - Class: EUR-2-euro, Degree Of Certainty: 94, Region Of Interest:[x1: 131.000,y1: 9.000, x2: 296.000, y2: 170.000]
+20231207_112710 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 131.000,y1: 7.000, x2: 296.000, y2: 169.000]
+20231207_112710 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 294.000, y2: 167.000]
+20231207_112710 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 131.000,y1: 9.000, x2: 293.000, y2: 166.000]
+20231207_112713 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 298, in write
+    self.wfile.write(hex(len(data))[2:].encode())
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 331, in debug_application
+    yield from app_iter
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 231, in run_data_processing_thread
+    video_stream_done.set_result(False)
+asyncio.exceptions.InvalidStateError: invalid state
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 359, in execute
+    application_iter.close()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 336, in debug_application
+    app_iter.close()  # type: ignore
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 231, in run_data_processing_thread
+    video_stream_done.set_result(False)
+asyncio.exceptions.InvalidStateError: invalid state
+20231207_112713 - INFO - 127.0.0.1 - - [07/Dec/2023 11:27:13] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_112713 - INFO - 127.0.0.1 - - [07/Dec/2023 11:27:13] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_112713 - INFO - 127.0.0.1 - - [07/Dec/2023 11:27:13] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_112714 - INFO - 127.0.0.1 - - [07/Dec/2023 11:27:14] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_112850 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_112850 - INFO -  * Restarting with stat
+20231207_112854 - WARNING -  * Debugger is active!
+20231207_112854 - INFO -  * Debugger PIN: 650-632-081
+20231207_112859 - INFO - 127.0.0.1 - - [07/Dec/2023 11:28:59] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_112859 - INFO - 127.0.0.1 - - [07/Dec/2023 11:28:59] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_112859 - INFO - 127.0.0.1 - - [07/Dec/2023 11:28:59] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_112900 - INFO - 127.0.0.1 - - [07/Dec/2023 11:29:00] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_112931 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_112932 - INFO -  * Restarting with stat
+20231207_112946 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_112946 - INFO - [33mPress CTRL+C to quit[0m
+20231207_112946 - INFO -  * Restarting with stat
+20231207_112949 - WARNING -  * Debugger is active!
+20231207_112949 - INFO -  * Debugger PIN: 650-632-081
+20231207_112950 - INFO - 127.0.0.1 - - [07/Dec/2023 11:29:50] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_112950 - INFO - 127.0.0.1 - - [07/Dec/2023 11:29:50] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_112950 - INFO - 127.0.0.1 - - [07/Dec/2023 11:29:50] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_112951 - INFO - 127.0.0.1 - - [07/Dec/2023 11:29:51] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_112959 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_113000 - INFO -  * Restarting with stat
+20231207_113004 - WARNING -  * Debugger is active!
+20231207_113004 - INFO -  * Debugger PIN: 650-632-081
+20231207_113004 - INFO - 127.0.0.1 - - [07/Dec/2023 11:30:04] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_113004 - INFO - 127.0.0.1 - - [07/Dec/2023 11:30:04] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_113005 - INFO - 127.0.0.1 - - [07/Dec/2023 11:30:05] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_113005 - INFO - 127.0.0.1 - - [07/Dec/2023 11:30:05] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_113045 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_113046 - INFO -  * Restarting with stat
+20231207_113104 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_113104 - INFO - [33mPress CTRL+C to quit[0m
+20231207_113104 - INFO -  * Restarting with stat
+20231207_113107 - WARNING -  * Debugger is active!
+20231207_113107 - INFO -  * Debugger PIN: 650-632-081
+20231207_113129 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:29] "GET /login HTTP/1.1" 200 -
+20231207_113129 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:29] "GET / HTTP/1.1" 200 -
+20231207_113131 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:31] "GET /login HTTP/1.1" 200 -
+20231207_113131 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:31] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_113131 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:31] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_113136 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231207_113136 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:36] "GET /dashboard HTTP/1.1" 200 -
+20231207_113136 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:36] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_113140 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:40] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_113140 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:40] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_113140 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:40] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_113140 - INFO - 127.0.0.1 - - [07/Dec/2023 11:31:40] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_113240 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:40] "GET /?vscodeBrowserReqId=1701948760350 HTTP/1.1" 200 -
+20231207_113240 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:40] "GET /static/styles/main_style.css HTTP/1.1" 200 -
+20231207_113240 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:40] "GET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1" 200 -
+20231207_113240 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:40] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231207_113243 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:43] "GET /login HTTP/1.1" 200 -
+20231207_113243 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:43] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_113243 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:43] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_113247 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231207_113247 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:47] "GET /dashboard HTTP/1.1" 200 -
+20231207_113247 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:47] "GET /static/styles/dashboard_style.css HTTP/1.1" 200 -
+20231207_113253 - INFO - Class: EUR-2-euro, Degree Of Certainty: 84, Region Of Interest:[x1: 148.000,y1: 28.000, x2: 297.000, y2: 169.000]
+20231207_113253 - INFO - 127.0.0.1 - - [07/Dec/2023 11:32:53] "GET /streaming HTTP/1.1" 200 -
+20231207_113254 - INFO - Class: EUR-2-euro, Degree Of Certainty: 86, Region Of Interest:[x1: 145.000,y1: 29.000, x2: 297.000, y2: 170.000]
+20231207_113254 - INFO - Class: EUR-2-euro, Degree Of Certainty: 86, Region Of Interest:[x1: 147.000,y1: 29.000, x2: 297.000, y2: 170.000]
+20231207_113254 - INFO - Class: EUR-2-euro, Degree Of Certainty: 86, Region Of Interest:[x1: 147.000,y1: 29.000, x2: 297.000, y2: 170.000]
+20231207_113254 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 142.000,y1: 29.000, x2: 297.000, y2: 170.000]
+20231207_113255 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 166.000]
+20231207_113255 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113255 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113255 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 165.000]
+20231207_113255 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 165.000]
+20231207_113256 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113256 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_113256 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 165.000]
+20231207_113256 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113256 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 165.000]
+20231207_113256 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 291.000, y2: 165.000]
+20231207_113257 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_113257 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_113257 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_113257 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_113258 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113258 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_113258 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113258 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_113258 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 291.000, y2: 166.000]
+20231207_113258 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_113258 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 166.000]
+20231207_113259 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 165.000]
+20231207_113259 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113259 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 165.000]
+20231207_113259 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_113259 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113259 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 166.000]
+20231207_113300 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113300 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113300 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 166.000]
+20231207_113300 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_113300 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_113300 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113301 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113301 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 165.000]
+20231207_113301 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 164.000]
+20231207_113301 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113301 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 164.000]
+20231207_113301 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 165.000]
+20231207_113306 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:06] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231207_113306 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:06] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231207_113307 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:07] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_113307 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:07] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_113313 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:13] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231207_113313 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:13] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231207_113313 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:13] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_113313 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:13] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_113318 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:18] "[32mGET /wallet?vscodeBrowserReqId=1701948797829 HTTP/1.1[0m" 302 -
+20231207_113318 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:18] "GET /login?next=/wallet?vscodeBrowserReqId%3D1701948797829 HTTP/1.1" 200 -
+20231207_113319 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:19] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_113319 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:19] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_113327 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231207_113327 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:27] "GET /dashboard HTTP/1.1" 200 -
+20231207_113328 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:28] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_113336 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:36] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231207_113337 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:37] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231207_113337 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:37] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_113337 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:37] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_113349 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:49] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_113349 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:49] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_113349 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:49] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_113350 - INFO - 127.0.0.1 - - [07/Dec/2023 11:33:50] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_114614 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/services.py', reloading
+20231207_114614 - INFO -  * Restarting with stat
+20231207_114621 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_114621 - INFO - [33mPress CTRL+C to quit[0m
+20231207_114621 - INFO -  * Restarting with stat
+20231207_114625 - WARNING -  * Debugger is active!
+20231207_114625 - INFO -  * Debugger PIN: 650-632-081
+20231207_115635 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231207_115635 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:35] "GET /login HTTP/1.1" 200 -
+20231207_115636 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:36] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_115636 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:36] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_115636 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:36] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231207_115638 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:38] "GET / HTTP/1.1" 200 -
+20231207_115639 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:39] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_115639 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:39] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_115644 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:44] "[32mPOST / HTTP/1.1[0m" 302 -
+20231207_115644 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:44] "GET / HTTP/1.1" 200 -
+20231207_115645 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:45] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_115645 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:45] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_115647 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:47] "GET /login HTTP/1.1" 200 -
+20231207_115648 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:48] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_115648 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:48] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_115650 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231207_115650 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:50] "GET /dashboard HTTP/1.1" 200 -
+20231207_115651 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:51] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_115654 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:54] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_115654 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:54] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_115654 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:54] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_115655 - INFO - 127.0.0.1 - - [07/Dec/2023 11:56:55] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_115803 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_115804 - INFO -  * Restarting with stat
+20231207_115808 - WARNING -  * Debugger is active!
+20231207_115808 - INFO -  * Debugger PIN: 650-632-081
+20231207_115810 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_115811 - INFO -  * Restarting with stat
+20231207_115814 - WARNING -  * Debugger is active!
+20231207_115814 - INFO -  * Debugger PIN: 650-632-081
+20231207_115815 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_115816 - INFO -  * Restarting with stat
+20231207_115820 - WARNING -  * Debugger is active!
+20231207_115820 - INFO -  * Debugger PIN: 650-632-081
+20231207_115822 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:22] "GET /dashboard HTTP/1.1" 200 -
+20231207_115822 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:22] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_115824 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:24] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_115824 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:24] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_115824 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:24] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_115825 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:25] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_115835 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_115836 - INFO -  * Restarting with stat
+20231207_115839 - WARNING -  * Debugger is active!
+20231207_115839 - INFO -  * Debugger PIN: 650-632-081
+20231207_115840 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:40] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_115840 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:40] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_115840 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:40] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_115841 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:41] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_115841 - INFO - 127.0.0.1 - - [07/Dec/2023 11:58:41] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_115851 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_115852 - INFO -  * Restarting with stat
+20231207_115913 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_115913 - INFO - [33mPress CTRL+C to quit[0m
+20231207_115913 - INFO -  * Restarting with stat
+20231207_115916 - WARNING -  * Debugger is active!
+20231207_115916 - INFO -  * Debugger PIN: 650-632-081
+20231207_115949 - INFO - Class: EUR-2-euro, Degree Of Certainty: 85, Region Of Interest:[x1: 147.000,y1: 27.000, x2: 297.000, y2: 168.000]
+20231207_115949 - INFO - 127.0.0.1 - - [07/Dec/2023 11:59:49] "GET /streaming HTTP/1.1" 200 -
+20231207_115949 - INFO - Class: EUR-2-euro, Degree Of Certainty: 85, Region Of Interest:[x1: 151.000,y1: 27.000, x2: 297.000, y2: 168.000]
+20231207_115949 - INFO - Class: EUR-2-euro, Degree Of Certainty: 85, Region Of Interest:[x1: 146.000,y1: 28.000, x2: 297.000, y2: 169.000]
+20231207_115949 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 144.000,y1: 29.000, x2: 297.000, y2: 170.000]
+20231207_115949 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 140.000,y1: 29.000, x2: 297.000, y2: 171.000]
+20231207_115949 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 131.000,y1: 11.000, x2: 294.000, y2: 165.000]
+20231207_115950 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 10.000, x2: 294.000, y2: 167.000]
+20231207_115950 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 293.000, y2: 168.000]
+20231207_115950 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_115950 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_115950 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_115950 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 14.000, x2: 292.000, y2: 166.000]
+20231207_115950 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 165.000]
+20231207_115950 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_115950 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 12.000, x2: 292.000, y2: 166.000]
+20231207_115950 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 291.000, y2: 166.000]
+20231207_115951 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 165.000]
+20231207_115951 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_115951 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 292.000, y2: 166.000]
+20231207_115951 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 12.000, x2: 293.000, y2: 167.000]
+20231207_115951 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 165.000]
+20231207_115951 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 166.000]
+20231207_115951 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 166.000]
+20231207_115958 - INFO - 127.0.0.1 - - [07/Dec/2023 11:59:58] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_115958 - INFO - 127.0.0.1 - - [07/Dec/2023 11:59:58] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_115959 - INFO - 127.0.0.1 - - [07/Dec/2023 11:59:59] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_115959 - INFO - 127.0.0.1 - - [07/Dec/2023 11:59:59] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_120000 - INFO - 127.0.0.1 - - [07/Dec/2023 12:00:00] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_120111 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_120111 - INFO - [33mPress CTRL+C to quit[0m
+20231207_120111 - INFO -  * Restarting with stat
+20231207_120115 - WARNING -  * Debugger is active!
+20231207_120115 - INFO -  * Debugger PIN: 650-632-081
+20231207_120213 - INFO - 127.0.0.1 - - [07/Dec/2023 12:02:13] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_120213 - INFO - 127.0.0.1 - - [07/Dec/2023 12:02:13] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_120213 - INFO - 127.0.0.1 - - [07/Dec/2023 12:02:13] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_120213 - INFO - 127.0.0.1 - - [07/Dec/2023 12:02:13] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_120347 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_120348 - INFO -  * Restarting with stat
+20231207_120352 - WARNING -  * Debugger is active!
+20231207_120352 - INFO -  * Debugger PIN: 650-632-081
+20231207_120354 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_120354 - INFO -  * Restarting with stat
+20231207_120358 - WARNING -  * Debugger is active!
+20231207_120358 - INFO -  * Debugger PIN: 650-632-081
+20231207_120412 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:12] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_120412 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:12] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_120412 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:12] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_120413 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:13] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_120413 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:13] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_120428 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:28] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_120428 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:28] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_120429 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:29] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_120429 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:29] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_120449 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_120449 - INFO - [33mPress CTRL+C to quit[0m
+20231207_120449 - INFO -  * Restarting with stat
+20231207_120452 - WARNING -  * Debugger is active!
+20231207_120452 - INFO -  * Debugger PIN: 650-632-081
+20231207_120457 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:57] "GET /dashboard HTTP/1.1" 200 -
+20231207_120458 - INFO - 127.0.0.1 - - [07/Dec/2023 12:04:58] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_120500 - INFO - 127.0.0.1 - - [07/Dec/2023 12:05:00] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_120500 - INFO - 127.0.0.1 - - [07/Dec/2023 12:05:00] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_120500 - INFO - 127.0.0.1 - - [07/Dec/2023 12:05:00] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_120501 - INFO - 127.0.0.1 - - [07/Dec/2023 12:05:01] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_120546 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_120547 - INFO -  * Restarting with stat
+20231207_120550 - WARNING -  * Debugger is active!
+20231207_120550 - INFO -  * Debugger PIN: 650-632-081
+20231207_120551 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_120552 - INFO -  * Restarting with stat
+20231207_120555 - WARNING -  * Debugger is active!
+20231207_120555 - INFO -  * Debugger PIN: 650-632-081
+20231207_120557 - INFO - 127.0.0.1 - - [07/Dec/2023 12:05:57] "GET /dashboard HTTP/1.1" 200 -
+20231207_120557 - INFO - 127.0.0.1 - - [07/Dec/2023 12:05:57] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_120559 - INFO - 127.0.0.1 - - [07/Dec/2023 12:05:59] "GET /dashboard HTTP/1.1" 200 -
+20231207_120559 - INFO - 127.0.0.1 - - [07/Dec/2023 12:05:59] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_120602 - INFO - 127.0.0.1 - - [07/Dec/2023 12:06:02] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_120602 - INFO - 127.0.0.1 - - [07/Dec/2023 12:06:02] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_120602 - INFO - 127.0.0.1 - - [07/Dec/2023 12:06:02] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_120603 - INFO - 127.0.0.1 - - [07/Dec/2023 12:06:03] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_120613 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_120614 - INFO -  * Restarting with stat
+20231207_120617 - WARNING -  * Debugger is active!
+20231207_120617 - INFO -  * Debugger PIN: 650-632-081
+20231207_135447 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_135447 - INFO - [33mPress CTRL+C to quit[0m
+20231207_135447 - INFO -  * Restarting with stat
+20231207_135450 - WARNING -  * Debugger is active!
+20231207_135450 - INFO -  * Debugger PIN: 650-632-081
+20231207_135452 - INFO - 127.0.0.1 - - [07/Dec/2023 13:54:52] "GET / HTTP/1.1" 200 -
+20231207_135452 - INFO - 127.0.0.1 - - [07/Dec/2023 13:54:52] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_135452 - INFO - 127.0.0.1 - - [07/Dec/2023 13:54:52] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_135452 - INFO - 127.0.0.1 - - [07/Dec/2023 13:54:52] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231207_135454 - INFO - 127.0.0.1 - - [07/Dec/2023 13:54:54] "GET /login HTTP/1.1" 200 -
+20231207_135454 - INFO - 127.0.0.1 - - [07/Dec/2023 13:54:54] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_135455 - INFO - 127.0.0.1 - - [07/Dec/2023 13:54:55] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_135457 - INFO - 127.0.0.1 - - [07/Dec/2023 13:54:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231207_135457 - INFO - 127.0.0.1 - - [07/Dec/2023 13:54:57] "GET /dashboard HTTP/1.1" 200 -
+20231207_135458 - INFO - 127.0.0.1 - - [07/Dec/2023 13:54:58] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_135503 - INFO - Class: EUR-2-euro, Degree Of Certainty: 86, Region Of Interest:[x1: 138.000,y1: 26.000, x2: 297.000, y2: 168.000]
+20231207_135503 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 0.000,y1: 140.000, x2: 106.000, y2: 249.000]
+20231207_135503 - INFO - 127.0.0.1 - - [07/Dec/2023 13:55:03] "GET /streaming HTTP/1.1" 200 -
+20231207_135503 - INFO - Class: EUR-2-euro, Degree Of Certainty: 84, Region Of Interest:[x1: 147.000,y1: 28.000, x2: 296.000, y2: 168.000]
+20231207_135504 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 148.000,y1: 28.000, x2: 297.000, y2: 170.000]
+20231207_135504 - INFO - Class: EUR-2-euro, Degree Of Certainty: 85, Region Of Interest:[x1: 142.000,y1: 29.000, x2: 297.000, y2: 170.000]
+20231207_135504 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 138.000,y1: 28.000, x2: 297.000, y2: 170.000]
+20231207_135504 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 9.000, x2: 294.000, y2: 166.000]
+20231207_135504 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 166.000]
+20231207_135504 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 131.000,y1: 12.000, x2: 292.000, y2: 166.000]
+20231207_135504 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 131.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_135504 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_135504 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 163.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 12.000, x2: 292.000, y2: 166.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135505 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135506 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 164.000]
+20231207_135506 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135506 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 292.000, y2: 166.000]
+20231207_135506 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 163.000]
+20231207_135506 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_135506 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 163.000]
+20231207_135506 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135506 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_135506 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 293.000, y2: 166.000]
+20231207_135506 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 292.000, y2: 166.000]
+20231207_135507 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 163.000]
+20231207_135507 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135507 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135507 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 292.000, y2: 163.000]
+20231207_135507 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135507 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 293.000, y2: 164.000]
+20231207_135507 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135507 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_135507 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 164.000]
+20231207_135507 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 131.000,y1: 12.000, x2: 292.000, y2: 166.000]
+20231207_135508 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_135508 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_135508 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_135508 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_135508 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_135515 - INFO - 127.0.0.1 - - [07/Dec/2023 13:55:15] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231207_135515 - INFO - 127.0.0.1 - - [07/Dec/2023 13:55:15] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231207_135516 - INFO - 127.0.0.1 - - [07/Dec/2023 13:55:16] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231207_135516 - INFO - 127.0.0.1 - - [07/Dec/2023 13:55:16] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231207_140011 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/services.py', reloading
+20231207_140011 - INFO -  * Restarting with stat
+20231207_140015 - WARNING -  * Debugger is active!
+20231207_140015 - INFO -  * Debugger PIN: 650-632-081
+20231207_140016 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/services.py', reloading
+20231207_140017 - INFO -  * Restarting with stat
+20231207_140020 - WARNING -  * Debugger is active!
+20231207_140020 - INFO -  * Debugger PIN: 650-632-081
+20231207_140138 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_140138 - INFO - [33mPress CTRL+C to quit[0m
+20231207_140138 - INFO -  * Restarting with stat
+20231207_140142 - WARNING -  * Debugger is active!
+20231207_140142 - INFO -  * Debugger PIN: 650-632-081
+20231207_140223 - INFO - 127.0.0.1 - - [07/Dec/2023 14:02:23] "GET /wallet HTTP/1.1" 200 -
+20231207_140223 - INFO - 127.0.0.1 - - [07/Dec/2023 14:02:23] "[36mGET /static/styles/wallet_style.css HTTP/1.1[0m" 304 -
+20231207_140259 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/infer_model.py', reloading
+20231207_140300 - INFO -  * Restarting with stat
+20231207_140304 - WARNING -  * Debugger is active!
+20231207_140304 - INFO -  * Debugger PIN: 650-632-081
+20231207_145551 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_145551 - INFO - [33mPress CTRL+C to quit[0m
+20231207_145551 - INFO -  * Restarting with stat
+20231207_145555 - WARNING -  * Debugger is active!
+20231207_145555 - INFO -  * Debugger PIN: 650-632-081
+20231207_145555 - INFO - 127.0.0.1 - - [07/Dec/2023 14:55:55] "GET / HTTP/1.1" 200 -
+20231207_145555 - INFO - 127.0.0.1 - - [07/Dec/2023 14:55:55] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_145555 - INFO - 127.0.0.1 - - [07/Dec/2023 14:55:55] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_145555 - INFO - 127.0.0.1 - - [07/Dec/2023 14:55:55] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231207_145558 - INFO - 127.0.0.1 - - [07/Dec/2023 14:55:58] "GET /login HTTP/1.1" 200 -
+20231207_145558 - INFO - 127.0.0.1 - - [07/Dec/2023 14:55:58] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_145558 - INFO - 127.0.0.1 - - [07/Dec/2023 14:55:58] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_145602 - INFO - 127.0.0.1 - - [07/Dec/2023 14:56:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231207_145602 - INFO - 127.0.0.1 - - [07/Dec/2023 14:56:02] "GET /dashboard HTTP/1.1" 200 -
+20231207_145602 - INFO - 127.0.0.1 - - [07/Dec/2023 14:56:02] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_145642 - INFO - 127.0.0.1 - - [07/Dec/2023 14:56:42] "GET /streaming HTTP/1.1" 200 -
+20231207_145644 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 298, in write
+    self.wfile.write(hex(len(data))[2:].encode())
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 331, in debug_application
+    yield from app_iter
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 230, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 221, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 152, in process_data
+    picture_dates = json.loads(picture_dates_json)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 359, in execute
+    application_iter.close()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 336, in debug_application
+    app_iter.close()  # type: ignore
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 230, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 221, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 152, in process_data
+    picture_dates = json.loads(picture_dates_json)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+20231207_145742 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/video/run_yolo_video.py', reloading
+20231207_145829 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_145829 - INFO - [33mPress CTRL+C to quit[0m
+20231207_145829 - INFO -  * Restarting with stat
+20231207_145833 - WARNING -  * Debugger is active!
+20231207_145833 - INFO -  * Debugger PIN: 650-632-081
+20231207_145834 - INFO - 127.0.0.1 - - [07/Dec/2023 14:58:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231207_145834 - INFO - 127.0.0.1 - - [07/Dec/2023 14:58:34] "GET /login HTTP/1.1" 200 -
+20231207_145835 - INFO - 127.0.0.1 - - [07/Dec/2023 14:58:35] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_145835 - INFO - 127.0.0.1 - - [07/Dec/2023 14:58:35] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_145835 - INFO - 127.0.0.1 - - [07/Dec/2023 14:58:35] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231207_145839 - INFO - 127.0.0.1 - - [07/Dec/2023 14:58:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231207_145839 - INFO - 127.0.0.1 - - [07/Dec/2023 14:58:39] "GET /dashboard HTTP/1.1" 200 -
+20231207_145839 - INFO - 127.0.0.1 - - [07/Dec/2023 14:58:39] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_145845 - INFO - Class: EUR-2-euro, Degree Of Certainty: 85, Region Of Interest:[x1: 140.000,y1: 27.000, x2: 296.000, y2: 168.000]
+20231207_145845 - INFO - 127.0.0.1 - - [07/Dec/2023 14:58:45] "GET /streaming HTTP/1.1" 200 -
+20231207_145845 - INFO - Class: EUR-2-euro, Degree Of Certainty: 85, Region Of Interest:[x1: 142.000,y1: 27.000, x2: 297.000, y2: 170.000]
+20231207_145845 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 138.000,y1: 27.000, x2: 297.000, y2: 171.000]
+20231207_145845 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 136.000,y1: 26.000, x2: 297.000, y2: 171.000]
+20231207_145846 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 138.000,y1: 27.000, x2: 297.000, y2: 170.000]
+20231207_145846 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 130.000,y1: 7.000, x2: 294.000, y2: 165.000]
+20231207_145846 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 295.000, y2: 166.000]
+20231207_145846 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 294.000, y2: 165.000]
+20231207_145846 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_145846 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 166.000]
+20231207_145846 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_145846 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 166.000]
+20231207_145846 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_145846 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 294.000, y2: 166.000]
+20231207_145847 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 293.000, y2: 166.000]
+20231207_145847 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 293.000, y2: 166.000]
+20231207_145847 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 164.000]
+20231207_145847 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_145847 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 293.000, y2: 166.000]
+20231207_145847 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 293.000, y2: 166.000]
+20231207_145847 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_145849 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 298, in write
+    self.wfile.write(hex(len(data))[2:].encode())
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 331, in debug_application
+    yield from app_iter
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 230, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 221, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 152, in process_data
+    picture_dates = json.loads(picture_dates_json)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 359, in execute
+    application_iter.close()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 336, in debug_application
+    app_iter.close()  # type: ignore
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 230, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 221, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 152, in process_data
+    picture_dates = json.loads(picture_dates_json)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.pyenv/versions/3.11.6/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+20231207_145908 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/app.py', reloading
+20231207_145908 - INFO -  * Restarting with stat
+20231207_145912 - WARNING -  * Debugger is active!
+20231207_145912 - INFO -  * Debugger PIN: 650-632-081
+20231207_145934 - INFO - Class: EUR-2-euro, Degree Of Certainty: 85, Region Of Interest:[x1: 143.000,y1: 26.000, x2: 297.000, y2: 169.000]
+20231207_145934 - INFO - 127.0.0.1 - - [07/Dec/2023 14:59:34] "GET /streaming HTTP/1.1" 200 -
+20231207_145934 - INFO - Class: EUR-2-euro, Degree Of Certainty: 86, Region Of Interest:[x1: 142.000,y1: 28.000, x2: 297.000, y2: 169.000]
+20231207_150023 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_150023 - INFO - [33mPress CTRL+C to quit[0m
+20231207_150023 - INFO -  * Restarting with stat
+20231207_150027 - WARNING -  * Debugger is active!
+20231207_150027 - INFO -  * Debugger PIN: 650-632-081
+20231207_150032 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 139.000,y1: 25.000, x2: 297.000, y2: 169.000]
+20231207_150032 - INFO - 127.0.0.1 - - [07/Dec/2023 15:00:32] "GET /streaming HTTP/1.1" 200 -
+20231207_150032 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 139.000,y1: 25.000, x2: 297.000, y2: 170.000]
+20231207_150032 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 141.000,y1: 27.000, x2: 297.000, y2: 170.000]
+20231207_150032 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 141.000,y1: 27.000, x2: 297.000, y2: 170.000]
+20231207_150032 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 140.000,y1: 27.000, x2: 297.000, y2: 170.000]
+20231207_150032 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 294.000, y2: 165.000]
+20231207_150032 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 10.000, x2: 293.000, y2: 166.000]
+20231207_150032 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150032 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150033 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150033 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150033 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150033 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150033 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150033 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150033 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_150033 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_150033 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150033 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_150034 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 166.000]
+20231207_150034 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150034 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150034 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150034 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150034 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150034 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150034 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_150034 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150035 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150035 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150035 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150035 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150035 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_150035 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150035 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 163.000]
+20231207_150035 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 164.000]
+20231207_150035 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150036 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150036 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150036 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150036 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150036 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 164.000]
+20231207_150036 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150036 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150036 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 166.000]
+20231207_150036 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150037 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150037 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150037 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150037 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 294.000, y2: 165.000]
+20231207_150037 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150037 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150037 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150037 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150037 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150038 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150038 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150038 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_150038 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150038 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150038 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150038 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150038 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150038 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150039 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 164.000]
+20231207_150039 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150039 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150039 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150039 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 164.000]
+20231207_150039 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150039 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150039 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150040 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 164.000]
+20231207_150125 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/minio_minio.py', reloading
+20231207_150149 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_150149 - INFO - [33mPress CTRL+C to quit[0m
+20231207_150149 - INFO -  * Restarting with stat
+20231207_150153 - WARNING -  * Debugger is active!
+20231207_150153 - INFO -  * Debugger PIN: 650-632-081
+20231207_150156 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 145.000,y1: 27.000, x2: 297.000, y2: 168.000]
+20231207_150156 - INFO - 127.0.0.1 - - [07/Dec/2023 15:01:56] "GET /streaming HTTP/1.1" 200 -
+20231207_150156 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 146.000,y1: 26.000, x2: 297.000, y2: 169.000]
+20231207_150156 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 145.000,y1: 28.000, x2: 296.000, y2: 169.000]
+20231207_150156 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 143.000,y1: 28.000, x2: 297.000, y2: 170.000]
+20231207_150156 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 136.000,y1: 26.000, x2: 297.000, y2: 170.000]
+20231207_150156 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 294.000, y2: 166.000]
+20231207_150156 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 294.000, y2: 166.000]
+20231207_150156 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 166.000]
+20231207_150156 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150157 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150157 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150157 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150157 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 10.000, x2: 293.000, y2: 165.000]
+20231207_150157 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150157 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150157 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 164.000]
+20231207_150157 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 164.000]
+20231207_150157 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 164.000]
+20231207_150158 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 292.000, y2: 164.000]
+20231207_150158 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150158 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150158 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150158 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150158 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150158 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 164.000]
+20231207_150158 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150158 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 131.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150158 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150159 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150159 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150159 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150159 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 165.000]
+20231207_150159 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 8.000, x2: 293.000, y2: 166.000]
+20231207_150159 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 132.000,y1: 9.000, x2: 293.000, y2: 165.000]
+20231207_150208 - INFO - 127.0.0.1 - - [07/Dec/2023 15:02:08] "GET /wallet HTTP/1.1" 200 -
+20231207_150208 - INFO - 127.0.0.1 - - [07/Dec/2023 15:02:08] "[36mGET /static/styles/wallet_style.css HTTP/1.1[0m" 304 -
+20231207_201344 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_201344 - INFO - [33mPress CTRL+C to quit[0m
+20231207_201344 - INFO -  * Restarting with stat
+20231207_201349 - WARNING -  * Debugger is active!
+20231207_201349 - INFO -  * Debugger PIN: 899-913-160
+20231207_201404 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/test/conftest.py', reloading
+20231207_201405 - INFO -  * Restarting with stat
+20231207_201409 - WARNING -  * Debugger is active!
+20231207_201409 - INFO -  * Debugger PIN: 899-913-160
+20231207_201433 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/test/conftest.py', reloading
+20231207_201434 - INFO -  * Restarting with stat
+20231207_201438 - WARNING -  * Debugger is active!
+20231207_201438 - INFO -  * Debugger PIN: 899-913-160
+20231207_201455 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/test/conftest.py', reloading
+20231207_201456 - INFO -  * Restarting with stat
+20231207_201501 - WARNING -  * Debugger is active!
+20231207_201501 - INFO -  * Debugger PIN: 899-913-160
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "GET /hello_world HTTP/1.1" 200 -
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "[32mPOST / HTTP/1.1[0m" 302 -
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "GET / HTTP/1.1" 200 -
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "POST /login HTTP/1.1" 200 -
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "GET / HTTP/1.1" 200 -
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "POST /login HTTP/1.1" 200 -
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "GET /dashboard HTTP/1.1" 200 -
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "GET /login HTTP/1.1" 200 -
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231207_201501 - INFO - 127.0.0.1 - - [07/Dec/2023 20:15:01] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "GET /hello_world HTTP/1.1" 200 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "[32mPOST / HTTP/1.1[0m" 302 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "GET / HTTP/1.1" 200 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "POST /login HTTP/1.1" 200 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "GET / HTTP/1.1" 200 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "POST /login HTTP/1.1" 200 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "GET /dashboard HTTP/1.1" 200 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "GET /login HTTP/1.1" 200 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231207_201742 - INFO - 127.0.0.1 - - [07/Dec/2023 20:17:42] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "GET /hello_world HTTP/1.1" 200 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "[32mPOST / HTTP/1.1[0m" 302 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "GET / HTTP/1.1" 200 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "POST /login HTTP/1.1" 200 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "GET / HTTP/1.1" 200 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "POST /login HTTP/1.1" 200 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "GET /dashboard HTTP/1.1" 200 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "GET /login HTTP/1.1" 200 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231207_201812 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:12] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "GET /hello_world HTTP/1.1" 200 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "[32mPOST / HTTP/1.1[0m" 302 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "GET / HTTP/1.1" 200 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "POST /login HTTP/1.1" 200 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "GET / HTTP/1.1" 200 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "POST /login HTTP/1.1" 200 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "GET /dashboard HTTP/1.1" 200 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "GET /login HTTP/1.1" 200 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231207_201826 - INFO - 127.0.0.1 - - [07/Dec/2023 20:18:26] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231207_203130 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_203130 - INFO - [33mPress CTRL+C to quit[0m
+20231207_203130 - INFO -  * Restarting with stat
+20231207_203446 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_203446 - INFO - [33mPress CTRL+C to quit[0m
+20231207_203446 - INFO -  * Restarting with stat
+20231207_203451 - WARNING -  * Debugger is active!
+20231207_203451 - INFO -  * Debugger PIN: 899-913-160
+20231207_203502 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:02] "GET /hello_world HTTP/1.1" 200 -
+20231207_203502 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:02] "[32mPOST / HTTP/1.1[0m" 302 -
+20231207_203502 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:02] "GET / HTTP/1.1" 200 -
+20231207_203502 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:02] "POST /login HTTP/1.1" 200 -
+20231207_203502 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:02] "GET / HTTP/1.1" 200 -
+20231207_203502 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:02] "POST /login HTTP/1.1" 200 -
+20231207_203502 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:02] "GET /dashboard HTTP/1.1" 200 -
+20231207_203502 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231207_203503 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:03] "GET /login HTTP/1.1" 200 -
+20231207_203503 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:03] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231207_203503 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:03] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231207_203519 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/app.py', reloading

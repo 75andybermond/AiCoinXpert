@@ -98,7 +98,7 @@ class YOLODetector:
                 if confidence > confidence_threshold:
                     cropped_image = frame[y1:y2, x1:x2]
                     current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-                    image_filename = f"/workspaces/AICoinXpert/src/backend/video/tmp/images/{current_time},{x1:.3f},{y1:.3f},{x2:.3f},{y2:.3f}.jpg"
+                    image_filename = f"/workspaces/AiCoinXpert/src/backend/video/tmp/images/{current_time},{x1:.3f},{y1:.3f},{x2:.3f},{y2:.3f}.jpg"
                     cv2.imwrite(
                         image_filename, cropped_image, [cv2.IMWRITE_JPEG_QUALITY, 100]
                     )

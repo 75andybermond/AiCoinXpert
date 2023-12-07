@@ -18,15 +18,8 @@
   },
   "runArgs": [
     "--network",
-    "host"
-],
-"features": {
-	"ghcr.io/devcontainers/features/docker-in-docker:2": {
-		"moby": true,
-		"azureDnsAutoDetection": true,
-		"installDockerBuildx": true,
-		"version": "latest",
-		"dockerDashComposeVersion": "v1"
-	}
-}
+    "host",
+    "--device=/dev/video0",
+    "--device=/dev/video2"
+  ]
 }

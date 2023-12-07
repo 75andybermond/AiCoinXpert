@@ -9,18 +9,17 @@ from minio import Minio
 from minio.error import S3Error
 from PIL import Image
 
-
-def get_container_ip() -> str:
-    """Get the IP address of the Minio in conainer.
-
-    Returns:
-        str: The ip address.
-    """
-    result = subprocess.run(
-        ["/workspaces/AiCoinXpert/script_ip_minio.sh"], stdout=subprocess.PIPE
-    )
-    ip_address = result.stdout.decode("utf-8")
-    return ip_address.strip()
+# def get_container_ip() -> str:
+# """Get the IP address of the Minio in conainer.
+#
+# Returns:
+# str: The ip address.
+# """
+# result = subprocess.run(
+# ["/workspaces/AiCoinXpert/script_ip_minio.sh"], stdout=subprocess.PIPE
+# )
+# ip_address = result.stdout.decode("utf-8")
+# return ip_address.strip()
 
 
 class MinioClient:
@@ -30,7 +29,7 @@ class MinioClient:
 
     def __init__(
         self,
-        endpoint=f"{get_container_ip()}:9000",
+        endpoint="172.19.0.3:9000",
         access_key="minioadmin",
         secret_key="minioadmin",
         secure=False,

@@ -10,7 +10,7 @@
 /runs
 algo/webscraping/*.parquet
 db/
-src/backend/video/tmp/*
+#src/backend/video/tmp/*
 
 # Ignore other common files and folders
 .DS_Store

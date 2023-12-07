@@ -7,17 +7,14 @@ from typing import Callable, Tuple
 import matplotlib.pyplot as plt
 import torch
 from PIL import Image
-from services import load_model
-from torchvision import transforms
-from torchvision.models.efficientnet import efficientnet_b7
+from torchvision import datasets, transforms
+from torchvision.models import densenet201
 
 # pylint: disable=no-member
 
 
-TRAIN_DIR = Path(
-    "/workspaces/AiCoinXpert/algo/webscraping/data/organized_images_above_20"
-)
-MODEL_PATH = load_model(Path("model.pkl.gz"))
+TRAIN_DIR = Path("/workspaces/AiCoinXpert/algo/webscraping/data/data_for_inference")
+MODEL_PATH = Path("/workspaces/AiCoinXpert/train_12_06_2023_15_59.pth")
 
 
 class ImageClassifier:
@@ -29,18 +26,18 @@ class ImageClassifier:
         self.output_classes_number = 198
         self.model = None
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        # self.setup_dataset()
+        self.setup_dataset()
         self.load_model()
 
-    # def setup_dataset(self, dataset_dir: str = None) -> None:
-    #     """Setup the dataset used in training to get the classes and the number of classes.
+    def setup_dataset(self, dataset_dir: str = None) -> None:
+        """Setup the dataset used in training to get the classes and the number of classes.
 
-    #     Args:
-    #         dataset_dir (str, optional): Location path of the dataset.
-    #     """
-    #     if dataset_dir is not None:
-    #         self.train_dir = Path(dataset_dir)
-    #     self.train_dataset = datasets.ImageFolder(self.train_dir)
+        Args:
+            dataset_dir (str, optional): Location path of the dataset.
+        """
+        if dataset_dir is not None:
+            self.train_dir = Path(dataset_dir)
+        self.train_dataset = datasets.ImageFolder(self.train_dir)
 
     def load_model(self, model_save_path: str = None) -> None:
         """Load and prepare the model.
@@ -50,11 +47,11 @@ class ImageClassifier:
         """
         if model_save_path is not None:
             self.model_save_path = Path(model_save_path)
-        self.model = efficientnet_b7()
+        self.model = densenet201()
         self.model.classifier = torch.nn.Sequential(
             torch.nn.Dropout(p=0.2, inplace=True),
             torch.nn.Linear(
-                in_features=2560, out_features=self.output_classes_number, bias=True
+                in_features=1920, out_features=self.output_classes_number, bias=True
             ),
         ).to(self.device)
         self.model.load_state_dict(

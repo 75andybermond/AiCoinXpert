@@ -212,8 +212,8 @@ def load_model(path: str) -> object:
 
 def main():
     """Main function."""
-    #_add_table()
-    #_make_bucket()
+    _add_table()
+    _make_bucket()
     insert_csv("/workspaces/AiCoinXpert/algo/webscraping/coins_to_db.csv", "coins")
     _send_pictures(
         _models.Buckets.BASED_PICTURES.value,

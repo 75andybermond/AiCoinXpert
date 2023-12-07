@@ -17,6 +17,9 @@ MIN_CERTAINTY = 50  # Minimum certainty for a coin to be considered valid (in %)
 PROBABILITY_THRESHOLD = (
     0.5  # Threshold for the classifier to consider a prediction valid
 )
+YOLO_THRESHOLD = 0.5
+CAMERA_INDEX = 1
+
 classifier = ImageClassifier()  # Initialize the classifier
 
 
@@ -173,7 +176,9 @@ def generate_frames():
     Yields:
         bytes: Frames in HTTP multipart format
     """
-    detector = YOLODetector(camera_index=2, model_path=MODEL_PATH, threshold=0.5)
+    detector = YOLODetector(
+        camera_index=CAMERA_INDEX, model_path=MODEL_PATH, threshold=YOLO_THRESHOLD
+    )
 
     try:
         while True:
@@ -213,7 +218,7 @@ async def run_data_processing():
     """Run data processing asynchronously."""
     data_processor = DataProcessor(
         log_path="/workspaces/AiCoinXpert/src/backend/video/tmp/detection_log.txt",
-        picture_path="/workspaces/AICoinXpert/src/backend/video/tmp/images",
+        picture_path="/workspaces/AiCoinXpert/src/backend/video/tmp/images",
         send_to_database=True,
         save_to_minio=True,
         min_certainty=MIN_CERTAINTY,

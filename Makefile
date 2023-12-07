@@ -1,5 +1,5 @@
 BACKEND=src/backend
-TEST=src/test
+TEST=/workspaces/AiCoinXpert/src/test
 
 launch_docker: # Start database and server . To be executed outside of docker container
 	docker compose up
@@ -44,14 +44,14 @@ up: # Run the app
 .PHONY: up
 
 backend_test: # Run the backend tests
-	pytest -p no:warnings /workspaces/AICoinXpert/src/test/ressources/testsuite/backend/ -v
+	pytest -p no:warnings src/backend/test/ressources/testsuite/backend/  -v
 	lsof -i :5000 # Check if the server is running on port 5000
 	kill -9 $$(lsof -t -i:5000) # Kill the server
 	make clean_pictures
 .PHONY: backend_test
 
 clean_pictures: # Clean the pictures in the tmp folder
-	rm -rf /workspaces/AICoinXpert/src/backend/video/tmp/images/*
+	rm -rf /workspaces/AiCoinXpert/src/backend/video/tmp/images/*
 .PHONY: clean_pictures
 
 # docker compose up
