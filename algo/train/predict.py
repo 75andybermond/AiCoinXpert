@@ -90,15 +90,15 @@ def load_model_and_predict(
     """
     # Define the class names for the model
     dataset = CustomDataset(
-        train_dir="/workspaces/AiCoinXpert/algo/webscraping/data/selected_coins_above20",
-        test_dir="/workspaces/AiCoinXpert/algo/webscraping/data/selected_coins_above20",
-        val_dir="/workspaces/AiCoinXpert/algo/webscraping/data/selected_coins_above20",
+        train_dir="/workspaces/AiCoinXpert/algo/webscraping/data/data_for_inference",
+        test_dir="/workspaces/AiCoinXpert/algo/webscraping/data/data_for_inference",
+        val_dir="/workspaces/AiCoinXpert/algo/webscraping/data/data_for_inference",
         batch_size=250,
     )
     class_names = dataset.class_names
-
     # Load the trained model
-    model = Model(ModelName.efficientnet_b7, dataset)
+    print(class_names)
+    model = Model(ModelName.DENSENET201.value, dataset)
     model.model.load_state_dict(torch.load(model_path, map_location=torch.device("cpu")))
 
     # Create a Predict object
@@ -143,7 +143,7 @@ def main(folder_path: str, apply_transform: bool = False, plot_images: bool = Fa
         apply_transform (bool): Whether to apply the transformation to the images.
     """
     # Define the path to the saved model state dictionary
-    model_path = "/workspaces/AiCoinXpert/model03_08_23_57.pth"
+    model_path = "/workspaces/AiCoinXpert/train_12_06_2023_15_59.pth"
 
     # Loop through all the images in the folder
     for filename in os.listdir(folder_path):
@@ -188,4 +188,4 @@ def main(folder_path: str, apply_transform: bool = False, plot_images: bool = Fa
 
 if __name__ == "__main__":
     FOLDER_PATH = "/workspaces/AiCoinXpert/algo/webscraping/data/unseen_coins"
-    main(FOLDER_PATH, apply_transform=True, plot_images=True)
+    main(FOLDER_PATH, apply_transform=False, plot_images=False)

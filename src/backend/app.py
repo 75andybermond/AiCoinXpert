@@ -18,7 +18,7 @@ PROBABILITY_THRESHOLD = (
     0.5  # Threshold for the classifier to consider a prediction valid
 )
 YOLO_THRESHOLD = 0.5
-CAMERA_INDEX = 1
+CAMERA_INDEX = 2
 
 classifier = ImageClassifier()  # Initialize the classifier
 

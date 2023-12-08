@@ -157,3 +157,12 @@ class ImageClassifier:
         image_dir_path = Path(image_dir)
         unseen = list(image_dir_path.glob("**/*"))
         return random.sample(population=unseen, k=num_images_to_get)
+
+
+# # use this class to classify images
+# classifier = ImageClassifier()
+# # get the images to classify
+# images = ImageClassifier.get_random_images(5, TRAIN_DIR)
+# # classify the images
+# for image in images:
+#     classifier.plot_images(image)

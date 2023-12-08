@@ -876,3 +876,249 @@ TypeError: the JSON object must be str, bytes or bytearray, not NoneType
 20231207_203503 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:03] "[32mGET /wallet HTTP/1.1[0m" 302 -
 20231207_203503 - INFO - 127.0.0.1 - - [07/Dec/2023 20:35:03] "GET /login?next=/wallet HTTP/1.1" 200 -
 20231207_203519 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/app.py', reloading
+20231207_211858 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231207_211858 - INFO - [33mPress CTRL+C to quit[0m
+20231207_211858 - INFO -  * Restarting with stat
+20231207_211902 - WARNING -  * Debugger is active!
+20231207_211902 - INFO -  * Debugger PIN: 899-913-160
+20231207_211903 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:03] "GET / HTTP/1.1" 200 -
+20231207_211903 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:03] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_211903 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:03] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_211903 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:03] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231207_211904 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+20231207_211905 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:05] "GET /login HTTP/1.1" 200 -
+20231207_211906 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:06] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231207_211906 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:06] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231207_211910 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231207_211910 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:10] "GET /dashboard HTTP/1.1" 200 -
+20231207_211911 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:11] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231207_211915 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:15] "GET /wallet HTTP/1.1" 200 -
+20231207_211915 - INFO - 127.0.0.1 - - [07/Dec/2023 21:19:15] "[36mGET /static/styles/wallet_style.css HTTP/1.1[0m" 304 -
+20231208_083711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231208_083711 - INFO - [33mPress CTRL+C to quit[0m
+20231208_083711 - INFO -  * Restarting with stat
+20231208_083715 - WARNING -  * Debugger is active!
+20231208_083715 - INFO -  * Debugger PIN: 102-647-356
+20231208_084145 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231208_084145 - INFO - [33mPress CTRL+C to quit[0m
+20231208_084145 - INFO -  * Restarting with stat
+20231208_084148 - WARNING -  * Debugger is active!
+20231208_084148 - INFO -  * Debugger PIN: 102-647-356
+20231208_084152 - INFO - 127.0.0.1 - - [08/Dec/2023 08:41:52] "GET / HTTP/1.1" 200 -
+20231208_084152 - INFO - 127.0.0.1 - - [08/Dec/2023 08:41:52] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231208_084152 - INFO - 127.0.0.1 - - [08/Dec/2023 08:41:52] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231208_084152 - INFO - 127.0.0.1 - - [08/Dec/2023 08:41:52] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231208_084153 - INFO - 127.0.0.1 - - [08/Dec/2023 08:41:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+20231208_084657 - INFO - 127.0.0.1 - - [08/Dec/2023 08:46:57] "[32mPOST / HTTP/1.1[0m" 302 -
+20231208_084657 - INFO - 127.0.0.1 - - [08/Dec/2023 08:46:57] "GET / HTTP/1.1" 200 -
+20231208_084657 - INFO - 127.0.0.1 - - [08/Dec/2023 08:46:57] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231208_084657 - INFO - 127.0.0.1 - - [08/Dec/2023 08:46:57] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231208_084658 - INFO - 127.0.0.1 - - [08/Dec/2023 08:46:58] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231208_084700 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:00] "GET /login HTTP/1.1" 200 -
+20231208_084700 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:00] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231208_084701 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:01] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231208_084704 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231208_084704 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:04] "GET /dashboard HTTP/1.1" 200 -
+20231208_084705 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:05] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231208_084730 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231208_084730 - INFO - [33mPress CTRL+C to quit[0m
+20231208_084730 - INFO -  * Restarting with stat
+20231208_084734 - WARNING -  * Debugger is active!
+20231208_084734 - INFO -  * Debugger PIN: 102-647-356
+20231208_084734 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:34] "GET /dashboard HTTP/1.1" 200 -
+20231208_084734 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:34] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231208_084738 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:38] "GET /streaming HTTP/1.1" 200 -
+20231208_084739 - INFO - Class: EUR-2-euro, Degree Of Certainty: 67, Region Of Interest:[x1: 127.000,y1: 2.000, x2: 300.000, y2: 166.000]
+20231208_084739 - INFO - Class: EUR-2-euro, Degree Of Certainty: 70, Region Of Interest:[x1: 134.000,y1: 16.000, x2: 292.000, y2: 161.000]
+20231208_084739 - INFO - Class: EUR-2-euro, Degree Of Certainty: 72, Region Of Interest:[x1: 134.000,y1: 28.000, x2: 292.000, y2: 162.000]
+20231208_084739 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 132.000,y1: 4.000, x2: 293.000, y2: 162.000]
+20231208_084739 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 11.000, x2: 292.000, y2: 162.000]
+20231208_084739 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 132.000,y1: 13.000, x2: 292.000, y2: 163.000]
+20231208_084739 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 13.000, x2: 292.000, y2: 162.000]
+20231208_084739 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 11.000, x2: 292.000, y2: 159.000]
+20231208_084739 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 292.000, y2: 162.000]
+20231208_084740 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 291.000, y2: 162.000]
+20231208_084740 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 133.000,y1: 15.000, x2: 292.000, y2: 161.000]
+20231208_084740 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 291.000, y2: 162.000]
+20231208_084740 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 291.000, y2: 162.000]
+20231208_084740 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 15.000, x2: 291.000, y2: 162.000]
+20231208_084740 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 133.000,y1: 13.000, x2: 292.000, y2: 162.000]
+20231208_084740 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 11.000, x2: 292.000, y2: 160.000]
+20231208_084740 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 13.000, x2: 292.000, y2: 163.000]
+20231208_084741 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 292.000, y2: 162.000]
+20231208_084741 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 292.000, y2: 163.000]
+20231208_084741 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 291.000, y2: 162.000]
+20231208_084741 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 291.000, y2: 162.000]
+20231208_084741 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 292.000, y2: 162.000]
+20231208_084741 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 292.000, y2: 164.000]
+20231208_084741 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 133.000,y1: 15.000, x2: 292.000, y2: 162.000]
+20231208_084741 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 292.000, y2: 162.000]
+20231208_084741 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 133.000,y1: 11.000, x2: 293.000, y2: 160.000]
+20231208_084741 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 292.000, y2: 161.000]
+20231208_084742 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 12.000, x2: 292.000, y2: 160.000]
+20231208_084742 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 291.000, y2: 162.000]
+20231208_084742 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 291.000, y2: 162.000]
+20231208_084742 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 133.000,y1: 10.000, x2: 293.000, y2: 160.000]
+20231208_084742 - INFO - Class: EUR-2-euro, Degree Of Certainty: 88, Region Of Interest:[x1: 133.000,y1: 14.000, x2: 292.000, y2: 162.000]
+20231208_084756 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/http/client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/http/client.py", line 1048, in _send_output
+    self.send(msg)
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/http/client.py", line 986, in send
+    self.connect()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f2fba9d80d0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 359, in execute
+    application_iter.close()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 336, in debug_application
+    app_iter.close()  # type: ignore
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 235, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 226, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 189, in process_data
+    _services._send_pictures(
+  File "/workspaces/AiCoinXpert/src/backend/services.py", line 122, in _send_pictures
+    client.send_directory_of_pictures(
+  File "/workspaces/AiCoinXpert/src/backend/minio_minio.py", line 140, in send_directory_of_pictures
+    self.client.fput_object(bucket_name, object_name, file_path)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/minio/api.py", line 993, in fput_object
+    return self.put_object(
+           ^^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/minio/api.py", line 1789, in put_object
+    raise exc
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/minio/api.py", line 1743, in put_object
+    return self._put_object(
+           ^^^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/minio/api.py", line 1590, in _put_object
+    response = self._execute(
+               ^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/minio/api.py", line 413, in _execute
+    region = self._get_region(bucket_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/minio/api.py", line 470, in _get_region
+    response = self._url_open(
+               ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/minio/api.py", line 279, in _url_open
+    response = self._http.urlopen(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/poolmanager.py", line 444, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.19.0.3', port=9000): Max retries exceeded with url: /users-pictures?location= (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2fba9d80d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+20231208_084756 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:56] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231208_084757 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:57] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231208_084757 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:57] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231208_084758 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:58] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231208_084758 - INFO - 127.0.0.1 - - [08/Dec/2023 08:47:58] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231208_085009 - INFO - 127.0.0.1 - - [08/Dec/2023 08:50:09] "[35m[1mGET /wallet HTTP/1.1[0m" 500 -
+20231208_085009 - INFO - 127.0.0.1 - - [08/Dec/2023 08:50:09] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231208_085009 - INFO - 127.0.0.1 - - [08/Dec/2023 08:50:09] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231208_085010 - INFO - 127.0.0.1 - - [08/Dec/2023 08:50:10] "[36mGET /wallet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231208_085032 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231208_085032 - INFO - [33mPress CTRL+C to quit[0m
+20231208_085032 - INFO -  * Restarting with stat
+20231208_085035 - WARNING -  * Debugger is active!
+20231208_085035 - INFO -  * Debugger PIN: 102-647-356
+20231208_085125 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/test/conftest.py', reloading
+20231208_085125 - INFO -  * Restarting with stat
+20231208_085129 - WARNING -  * Debugger is active!
+20231208_085129 - INFO -  * Debugger PIN: 102-647-356
+20231208_085138 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/test/conftest.py', reloading
+20231208_085139 - INFO -  * Restarting with stat
+20231208_085142 - WARNING -  * Debugger is active!
+20231208_085142 - INFO -  * Debugger PIN: 102-647-356
+20231208_085150 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/test/conftest.py', reloading
+20231208_085151 - INFO -  * Restarting with stat
+20231208_085155 - WARNING -  * Debugger is active!
+20231208_085155 - INFO -  * Debugger PIN: 102-647-356
+20231208_085202 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/test/conftest.py', reloading
+20231208_085203 - INFO -  * Restarting with stat
+20231208_085207 - WARNING -  * Debugger is active!
+20231208_085207 - INFO -  * Debugger PIN: 102-647-356
+20231208_085348 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/test/conftest.py', reloading
+20231208_085348 - INFO -  * Restarting with stat
+20231208_085352 - WARNING -  * Debugger is active!
+20231208_085352 - INFO -  * Debugger PIN: 102-647-356
+20231208_085355 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/test/conftest.py', reloading
+20231208_085355 - INFO -  * Restarting with stat
+20231208_085359 - WARNING -  * Debugger is active!
+20231208_085359 - INFO -  * Debugger PIN: 102-647-356
+20231208_090029 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231208_090029 - INFO - [33mPress CTRL+C to quit[0m
+20231208_090029 - INFO -  * Restarting with stat
+20231208_090033 - WARNING -  * Debugger is active!
+20231208_090033 - INFO -  * Debugger PIN: 102-647-356
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "GET /hello_world HTTP/1.1" 200 -
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "[32mPOST / HTTP/1.1[0m" 302 -
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "GET / HTTP/1.1" 200 -
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "POST /login HTTP/1.1" 200 -
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "GET / HTTP/1.1" 200 -
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "POST /login HTTP/1.1" 200 -
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "GET /dashboard HTTP/1.1" 200 -
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "GET /login HTTP/1.1" 200 -
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231208_090037 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:37] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231208_090039 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 143.000,y1: 24.000, x2: 296.000, y2: 169.000]
+20231208_090039 - INFO - 127.0.0.1 - - [08/Dec/2023 09:00:39] "GET /streaming HTTP/1.1" 200 -
+20231208_090039 - INFO - Class: EUR-2-euro, Degree Of Certainty: 85, Region Of Interest:[x1: 146.000,y1: 25.000, x2: 297.000, y2: 169.000]
