@@ -1,15 +1,21 @@
 """Form fields and routes for the Flask application."""
 import asyncio
+import io
+import os
 from datetime import datetime
 
-from flask import Response, flash, redirect, render_template, url_for
+from flask import (Response, flash, jsonify, redirect, render_template,
+                   request, url_for)
 from flask_login import current_user, login_required, login_user, logout_user
 from infer_model import ImageClassifier
 from log_processor import DataProcessor
 from minio_minio import DisplayMinio
 from models import Buckets, Predictions, Users, app, db, login
+from PIL import Image
 from services import find_coins_in_database
 from video.run_yolo_video import MODEL_PATH, YOLODetector
+from werkzeug.datastructures import FileStorage
+from werkzeug.utils import secure_filename
 from wtform_fields import LoginForm, RegistrationForm, pbkdf2_sha256
 
 # pylint: disable=unexpected-keyword-arg
@@ -19,7 +25,6 @@ PROBABILITY_THRESHOLD = (
 )
 YOLO_THRESHOLD = 0.5
 CAMERA_INDEX = 2
-
 classifier = ImageClassifier()  # Initialize the classifier
 
 
@@ -212,6 +217,39 @@ def video():
     response.call_on_close(run_data_processing_thread)
 
     return response
+
+
+@app.route("/predict", methods=["POST", "GET"])
+async def predict():
+    if "image" not in request.files:
+        return "No image part in the request.", 400
+
+    file = request.files["image"]
+
+    if file.filename == "":
+        return "No selected image.", 400
+
+    if file:
+        filename = secure_filename(file.filename)
+        file_path = os.path.join("/tmp", filename)
+        file.save(file_path)
+
+        # Open the image file with PIL
+        image = Image.open(file_path)
+
+        # Convert the image into bytes
+        byte_arr = io.BytesIO()
+        image.save(byte_arr, format="PNG")
+        image_data = byte_arr.getvalue()
+
+        # Predict the class of the image using the classifier
+        prediction = await classifier.predict_image(
+            probability_threshold=PROBABILITY_THRESHOLD,
+            image_data=image_data,
+            image_name=file.filename,
+        )
+
+        return jsonify({"Prediction": prediction})
 
 
 async def run_data_processing():

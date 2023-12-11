@@ -29,7 +29,7 @@ class MinioClient:
 
     def __init__(
         self,
-        endpoint="172.19.0.3:9000",
+        endpoint="172.19.0.2:9000",
         access_key="minioadmin",
         secret_key="minioadmin",
         secure=False,

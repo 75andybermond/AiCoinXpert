@@ -10,7 +10,8 @@
 /runs
 algo/webscraping/*.parquet
 db/
-#src/backend/video/tmp/*
+algo/webscraping/data/unseen_coins/*
+src/backend/video/tmp/detection_log.txt
 
 # Ignore other common files and folders
 .DS_Store
@@ -24,3 +25,4 @@ __pycache__/
 .pytest_cache/
 *~
 .env
+
