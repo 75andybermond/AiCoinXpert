@@ -10,11 +10,9 @@ stop_docker: # Stop the running docker container
 .PHONY: stop_docker
 
 setup:
-	#poetry remove opencv-python
 	sudo apt-get update
 	sudo apt-get install libgl1-mesa-glx
 	sudo apt-get install libglib2.0-0
-
 	sudo apt-get install libcurrand10
 	sudo apt-get install libsm6
 	sudo apt-get install libgl1-mesa-glx

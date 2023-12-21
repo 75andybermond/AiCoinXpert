@@ -14,23 +14,54 @@ from flask_wtf.csrf import CSRFProtect
 # pylint: disable=E0401
 # import db as _database
 
-app = Flask(
-    __name__,
-    template_folder="/workspaces/AiCoinXpert/src/frontend/templates",
-    static_folder="/workspaces/AiCoinXpert/src/frontend/static",
-)
-app.secret_key = "replace later"
-app.config[
-    "SQLALCHEMY_DATABASE_URI"
-] = "postgresql://root:password@localhost:5432/coins_db"
-app.config["WTF_CSRF_ENABLED"] = False
-db = SQLAlchemy(app)
-admin = Admin(app)
-login = LoginManager(app)
+# app = Flask(
+#     __name__,
+#     template_folder="/workspaces/AiCoinXpert/src/frontend/templates",
+#     static_folder="/workspaces/AiCoinXpert/src/frontend/static",
+# )
+# app.secret_key = "replace later"
+# app.config[
+#     "SQLALCHEMY_DATABASE_URI"
+# ] = "postgresql://root:password@localhost:5432/coco"
+# app.config["WTF_CSRF_ENABLED"] = False
+# db = SQLAlchemy(app)
 
-csrf = CSRFProtect(app)
-login.init_app(app)
-login.login_view = "login"
+# admin = Admin(app)
+# login = LoginManager(app)
+
+# csrf = CSRFProtect(app)
+# login.init_app(app)
+# login.login_view = "login"
+
+db = SQLAlchemy()
+admin = Admin()
+login = LoginManager()
+csrf = CSRFProtect()
+
+
+def create_app():
+    app = Flask(
+        __name__,
+        template_folder="/workspaces/AiCoinXpert/src/frontend/templates",
+        static_folder="/workspaces/AiCoinXpert/src/frontend/static",
+    )
+    app.config[
+        "SQLALCHEMY_DATABASE_URI"
+    ] = "postgresql://root:password@localhost:5432/coco"
+    app.config["WTF_CSRF_ENABLED"] = False
+    app.secret_key = "replace later"
+
+    db.init_app(app)
+    admin.init_app(app)
+    login.init_app(app)
+    csrf.init_app(app)
+
+    login.login_view = "login"
+
+    return app
+
+
+app = create_app()
 
 
 @dataclass

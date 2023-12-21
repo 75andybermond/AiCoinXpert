@@ -15,7 +15,7 @@ MODEL_PATH = "/workspaces/AiCoinXpert/src/backend/video/best.pt"
 
 # Configure the logging settings with the custom formatter
 logging.basicConfig(
-    filename="src/backend/video/tmp/detection_log.txt",
+    filename="/workspaces/AiCoinXpert/src/backend/video/tmp/detection_log.txt",
     level=logging.INFO,  # Set the logging level to INFO
     format="%(asctime)s - %(levelname)s - %(message)s",
     datefmt="%Y%m%d_%H%M%S",  # Define log format

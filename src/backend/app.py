@@ -7,24 +7,25 @@ from datetime import datetime
 from flask import (Response, flash, jsonify, redirect, render_template,
                    request, url_for)
 from flask_login import current_user, login_required, login_user, logout_user
-from infer_model import ImageClassifier
-from log_processor import DataProcessor
-from minio_minio import DisplayMinio
 from models import Buckets, Predictions, Users, app, db, login
 from PIL import Image
-from services import find_coins_in_database
-from video.run_yolo_video import MODEL_PATH, YOLODetector
 from werkzeug.datastructures import FileStorage
 from werkzeug.utils import secure_filename
-from wtform_fields import LoginForm, RegistrationForm, pbkdf2_sha256
+
+from backend.infer_model import ImageClassifier
+from backend.log_processor import DataProcessor
+from backend.minio_minio import DisplayMinio
+from backend.services import find_coins_in_database
+from backend.video.run_yolo_video import MODEL_PATH, YOLODetector
+from backend.wtform_fields import LoginForm, RegistrationForm, pbkdf2_sha256
 
 # pylint: disable=unexpected-keyword-arg
-MIN_CERTAINTY = 50  # Minimum certainty for a coin to be considered valid (in %)
+MIN_CERTAINTY = 40  # Minimum certainty for a coin to be considered valid (in %)
 PROBABILITY_THRESHOLD = (
-    0.5  # Threshold for the classifier to consider a prediction valid
+    0.2  # Threshold for the classifier to consider a prediction valid
 )
 YOLO_THRESHOLD = 0.5
-CAMERA_INDEX = 2
+CAMERA_INDEX = 0
 classifier = ImageClassifier()  # Initialize the classifier
 
 

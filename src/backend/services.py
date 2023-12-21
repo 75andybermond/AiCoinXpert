@@ -4,21 +4,21 @@ import gzip
 import pickle
 
 import jellyfish
-import backend.minio_minio as _minio
-import backend.models as _models
 import pandas as pd
 from sqlalchemy import inspect
 from sqlalchemy.exc import OperationalError
 
 import backend.db as _database
+import backend.minio_minio as _minio
+import backend.models as _models
 
 #### Services for database ####
 
 
-def _add_table():
+def _add_table(table_model):
     """Add a table based on the model to the database."""
 
-    return _database.Base.metadata.create_all(bind=_database.engine)
+    return table_model.metadata.create_all(bind=_database.engine)
 
 
 def _drop_table():
@@ -37,6 +37,23 @@ def check_if_table_exists(table_name):
 
     inspector = inspect(_database.engine)
     return table_name in inspector.get_table_names()
+
+
+def get_all_tables():
+    """Return all tables and their schema in the database."""
+
+    inspector = inspect(_database.engine)
+    table_names = inspector.get_table_names()
+
+    # Dictionary to hold table names and their schema
+    table_schemas = {}
+
+    for table in table_names:
+        # Get the schema of the table
+        columns = inspector.get_columns(table)
+        table_schemas[table] = {column["name"]: column["type"] for column in columns}
+
+    return table_schemas
 
 
 def is_database_responding():
@@ -212,16 +229,20 @@ def load_model(path: str) -> object:
 
 def main():
     """Main function."""
-    _add_table()
-    _make_bucket()
+    # _add_table(_models.Users)
+    _add_table(_models.Predictions)
+    _add_table(_models.Coins)
+
+    # _make_bucket()
     insert_csv("/workspaces/AiCoinXpert/algo/webscraping/coins_to_db.csv", "coins")
-    _send_pictures(
-        _models.Buckets.BASED_PICTURES.value,
-        "/workspaces/AiCoinXpert/algo/webscraping/data/selected_coins_above20",
-    )
+    # _send_pictures(
+    #     _models.Buckets.BASED_PICTURES.value,
+    #     "/workspaces/AiCoinXpert/algo/webscraping/data/selected_coins_above20",
+    # )
+    print(f"Database {get_all_tables()}")
 
 
-#### Scrpit sending datas to database and pictures to minio synchronyously ####
+#### Script sending datas to database and pictures to minio synchronyously ####
 
 # I want to take my pictures from locally and send them to minio
 # at the same time I feed the database.

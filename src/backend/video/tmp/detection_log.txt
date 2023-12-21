@@ -3574,3 +3574,1340 @@ asyncio.exceptions.InvalidStateError: invalid state
 20231221_092312 - INFO - 127.0.0.1 - - [21/Dec/2023 09:23:12] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
 20231221_092317 - INFO - 127.0.0.1 - - [21/Dec/2023 09:23:17] "GET /wallet HTTP/1.1" 200 -
 20231221_092317 - INFO - 127.0.0.1 - - [21/Dec/2023 09:23:17] "[36mGET /static/styles/wallet_style.css HTTP/1.1[0m" 304 -
+20231221_131620 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_131620 - INFO - [33mPress CTRL+C to quit[0m
+20231221_131620 - INFO -  * Restarting with stat
+20231221_131624 - WARNING -  * Debugger is active!
+20231221_131624 - INFO -  * Debugger PIN: 566-236-966
+20231221_131624 - INFO - 127.0.0.1 - - [21/Dec/2023 13:16:24] "GET / HTTP/1.1" 200 -
+20231221_131624 - INFO - 127.0.0.1 - - [21/Dec/2023 13:16:24] "GET /static/styles/main_style.css HTTP/1.1" 200 -
+20231221_131624 - INFO - 127.0.0.1 - - [21/Dec/2023 13:16:24] "GET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1" 200 -
+20231221_131624 - INFO - 127.0.0.1 - - [21/Dec/2023 13:16:24] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_131625 - INFO - 127.0.0.1 - - [21/Dec/2023 13:16:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+20231221_131633 - INFO - 127.0.0.1 - - [21/Dec/2023 13:16:33] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+20231221_131633 - INFO - 127.0.0.1 - - [21/Dec/2023 13:16:33] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+20231221_131633 - INFO - 127.0.0.1 - - [21/Dec/2023 13:16:33] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+20231221_131633 - INFO - 127.0.0.1 - - [21/Dec/2023 13:16:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+20231221_131633 - INFO - 127.0.0.1 - - [21/Dec/2023 13:16:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_131825 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_131825 - INFO - [33mPress CTRL+C to quit[0m
+20231221_131825 - INFO -  * Restarting with stat
+20231221_131829 - WARNING -  * Debugger is active!
+20231221_131829 - INFO -  * Debugger PIN: 566-236-966
+20231221_131835 - INFO - 127.0.0.1 - - [21/Dec/2023 13:18:35] "POST / HTTP/1.1" 200 -
+20231221_131836 - INFO - 127.0.0.1 - - [21/Dec/2023 13:18:36] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_131836 - INFO - 127.0.0.1 - - [21/Dec/2023 13:18:36] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_131840 - INFO - 127.0.0.1 - - [21/Dec/2023 13:18:40] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+20231221_131840 - INFO - 127.0.0.1 - - [21/Dec/2023 13:18:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_131840 - INFO - 127.0.0.1 - - [21/Dec/2023 13:18:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_131841 - INFO - 127.0.0.1 - - [21/Dec/2023 13:18:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_131841 - INFO - 127.0.0.1 - - [21/Dec/2023 13:18:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_132740 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_132740 - INFO - [33mPress CTRL+C to quit[0m
+20231221_132740 - INFO -  * Restarting with stat
+20231221_132744 - WARNING -  * Debugger is active!
+20231221_132744 - INFO -  * Debugger PIN: 566-236-966
+20231221_132744 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:44] "GET / HTTP/1.1" 200 -
+20231221_132744 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:44] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_132744 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:44] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_132744 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:44] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_132748 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:48] "[32mGET /admin HTTP/1.1[0m" 308 -
+20231221_132748 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:48] "GET /admin/ HTTP/1.1" 200 -
+20231221_132749 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:49] "GET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1" 200 -
+20231221_132749 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:49] "GET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1" 200 -
+20231221_132749 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:49] "GET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1" 200 -
+20231221_132749 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:49] "GET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1" 200 -
+20231221_132749 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:49] "GET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1" 200 -
+20231221_132749 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:49] "GET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1" 200 -
+20231221_132749 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:49] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+20231221_132750 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:50] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_132750 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:50] "GET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+20231221_132750 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:50] "GET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+20231221_132751 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:51] "GET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+20231221_132751 - INFO - 127.0.0.1 - - [21/Dec/2023 13:27:51] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_133448 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_133448 - INFO - [33mPress CTRL+C to quit[0m
+20231221_133448 - INFO -  * Restarting with stat
+20231221_133451 - WARNING -  * Debugger is active!
+20231221_133451 - INFO -  * Debugger PIN: 566-236-966
+20231221_133453 - INFO - 127.0.0.1 - - [21/Dec/2023 13:34:53] "GET / HTTP/1.1" 200 -
+20231221_133453 - INFO - 127.0.0.1 - - [21/Dec/2023 13:34:53] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_133453 - INFO - 127.0.0.1 - - [21/Dec/2023 13:34:53] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_133453 - INFO - 127.0.0.1 - - [21/Dec/2023 13:34:53] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_133506 - INFO - 127.0.0.1 - - [21/Dec/2023 13:35:06] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+20231221_133506 - INFO - 127.0.0.1 - - [21/Dec/2023 13:35:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_133506 - INFO - 127.0.0.1 - - [21/Dec/2023 13:35:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_133506 - INFO - 127.0.0.1 - - [21/Dec/2023 13:35:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_133506 - INFO - 127.0.0.1 - - [21/Dec/2023 13:35:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_133801 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_133801 - INFO - [33mPress CTRL+C to quit[0m
+20231221_133801 - INFO -  * Restarting with stat
+20231221_133805 - WARNING -  * Debugger is active!
+20231221_133805 - INFO -  * Debugger PIN: 566-236-966
+20231221_133806 - INFO - 127.0.0.1 - - [21/Dec/2023 13:38:06] "GET / HTTP/1.1" 200 -
+20231221_133806 - INFO - 127.0.0.1 - - [21/Dec/2023 13:38:06] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_133806 - INFO - 127.0.0.1 - - [21/Dec/2023 13:38:06] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_133806 - INFO - 127.0.0.1 - - [21/Dec/2023 13:38:06] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_133824 - INFO - 127.0.0.1 - - [21/Dec/2023 13:38:24] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+20231221_133824 - INFO - 127.0.0.1 - - [21/Dec/2023 13:38:24] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_133824 - INFO - 127.0.0.1 - - [21/Dec/2023 13:38:24] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_133824 - INFO - 127.0.0.1 - - [21/Dec/2023 13:38:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_133824 - INFO - 127.0.0.1 - - [21/Dec/2023 13:38:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_133928 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_133928 - INFO - [33mPress CTRL+C to quit[0m
+20231221_133928 - INFO -  * Restarting with stat
+20231221_133931 - WARNING -  * Debugger is active!
+20231221_133931 - INFO -  * Debugger PIN: 566-236-966
+20231221_133931 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:31] "GET / HTTP/1.1" 200 -
+20231221_133931 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:31] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_133931 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:31] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_133931 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:31] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_133932 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:32] "GET / HTTP/1.1" 200 -
+20231221_133932 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:32] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_133932 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:32] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_133932 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:32] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_133935 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:35] "GET /admin/ HTTP/1.1" 200 -
+20231221_133935 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:35] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_133936 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:36] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_133936 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:36] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_133936 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:36] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_133936 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:36] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_133936 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:36] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_133936 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:36] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_133937 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:37] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_133937 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:37] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_133937 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:37] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_133937 - INFO - 127.0.0.1 - - [21/Dec/2023 13:39:37] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_134120 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_134120 - INFO - [33mPress CTRL+C to quit[0m
+20231221_134121 - INFO -  * Restarting with stat
+20231221_134124 - WARNING -  * Debugger is active!
+20231221_134124 - INFO -  * Debugger PIN: 566-236-966
+20231221_134124 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:24] "GET / HTTP/1.1" 200 -
+20231221_134124 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:24] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_134124 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:24] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_134124 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:24] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_134129 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:29] "GET /admin/ HTTP/1.1" 200 -
+20231221_134129 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:29] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_134129 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:29] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_134129 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:29] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_134129 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:29] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_134129 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:29] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_134129 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:29] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_134129 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:29] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_134130 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:30] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_134130 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:30] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_134131 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:31] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_134131 - INFO - 127.0.0.1 - - [21/Dec/2023 13:41:31] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_134508 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_134508 - INFO - [33mPress CTRL+C to quit[0m
+20231221_134508 - INFO -  * Restarting with stat
+20231221_134512 - WARNING -  * Debugger is active!
+20231221_134512 - INFO -  * Debugger PIN: 566-236-966
+20231221_134516 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:16] "GET / HTTP/1.1" 200 -
+20231221_134516 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:16] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_134516 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:16] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_134516 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:16] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_134526 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:26] "GET /admin/ HTTP/1.1" 200 -
+20231221_134526 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:26] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_134527 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:27] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_134527 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:27] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_134527 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:27] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_134527 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:27] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_134527 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:27] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_134527 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:27] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_134528 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:28] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_134528 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:28] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_134528 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:28] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_134529 - INFO - 127.0.0.1 - - [21/Dec/2023 13:45:29] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_134706 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/services.py', reloading
+20231221_134707 - INFO -  * Restarting with stat
+20231221_134738 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_134738 - INFO - [33mPress CTRL+C to quit[0m
+20231221_134738 - INFO -  * Restarting with stat
+20231221_134741 - WARNING -  * Debugger is active!
+20231221_134741 - INFO -  * Debugger PIN: 566-236-966
+20231221_134741 - INFO - 127.0.0.1 - - [21/Dec/2023 13:47:41] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_134741 - INFO - 127.0.0.1 - - [21/Dec/2023 13:47:41] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_134742 - INFO - 127.0.0.1 - - [21/Dec/2023 13:47:42] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_134742 - INFO - 127.0.0.1 - - [21/Dec/2023 13:47:42] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_134742 - INFO - 127.0.0.1 - - [21/Dec/2023 13:47:42] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_134910 - INFO - 127.0.0.1 - - [21/Dec/2023 13:49:10] "[35m[1mGET /admin/predictions/ HTTP/1.1[0m" 500 -
+20231221_134910 - INFO - 127.0.0.1 - - [21/Dec/2023 13:49:10] "GET /admin/predictions/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+20231221_134910 - INFO - 127.0.0.1 - - [21/Dec/2023 13:49:10] "GET /admin/predictions/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+20231221_134910 - INFO - 127.0.0.1 - - [21/Dec/2023 13:49:10] "GET /admin/predictions/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+20231221_134911 - INFO - 127.0.0.1 - - [21/Dec/2023 13:49:11] "[36mGET /admin/predictions/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_135815 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_135815 - INFO - [33mPress CTRL+C to quit[0m
+20231221_135815 - INFO -  * Restarting with stat
+20231221_135819 - WARNING -  * Debugger is active!
+20231221_135819 - INFO -  * Debugger PIN: 566-236-966
+20231221_135819 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:19] "GET / HTTP/1.1" 200 -
+20231221_135819 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:19] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_135819 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:19] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_135819 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:19] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_135821 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:21] "GET /admin/ HTTP/1.1" 200 -
+20231221_135821 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:21] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_135821 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:21] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_135821 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:21] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_135821 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:21] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_135821 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:21] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_135821 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:21] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_135821 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:21] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_135824 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:24] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_135824 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:24] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_135824 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:24] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_135825 - INFO - 127.0.0.1 - - [21/Dec/2023 13:58:25] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_135907 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/models.py', reloading
+20231221_135908 - INFO -  * Restarting with stat
+20231221_135912 - WARNING -  * Debugger is active!
+20231221_135912 - INFO -  * Debugger PIN: 566-236-966
+20231221_135914 - INFO - 127.0.0.1 - - [21/Dec/2023 13:59:14] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_135914 - INFO - 127.0.0.1 - - [21/Dec/2023 13:59:14] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_135914 - INFO - 127.0.0.1 - - [21/Dec/2023 13:59:14] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_135914 - INFO - 127.0.0.1 - - [21/Dec/2023 13:59:14] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_140044 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/models.py', reloading
+20231221_140045 - INFO -  * Restarting with stat
+20231221_140048 - WARNING -  * Debugger is active!
+20231221_140048 - INFO -  * Debugger PIN: 566-236-966
+20231221_140058 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/db.py', reloading
+20231221_140058 - INFO -  * Restarting with stat
+20231221_140102 - WARNING -  * Debugger is active!
+20231221_140102 - INFO -  * Debugger PIN: 566-236-966
+20231221_140149 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_140149 - INFO - [33mPress CTRL+C to quit[0m
+20231221_140149 - INFO -  * Restarting with stat
+20231221_140152 - WARNING -  * Debugger is active!
+20231221_140152 - INFO -  * Debugger PIN: 566-236-966
+20231221_140201 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:01] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_140201 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:01] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_140202 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:02] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_140202 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:02] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_140202 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:02] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_140205 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:05] "GET /admin/ HTTP/1.1" 200 -
+20231221_140205 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:05] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_140205 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:05] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_140205 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:05] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_140205 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:05] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_140205 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:05] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_140205 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:05] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_140205 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:05] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_140206 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:06] "[35m[1mGET /admin/predictions/ HTTP/1.1[0m" 500 -
+20231221_140206 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:06] "[36mGET /admin/predictions/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_140206 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:06] "[36mGET /admin/predictions/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_140207 - INFO - 127.0.0.1 - - [21/Dec/2023 14:02:07] "[36mGET /admin/predictions/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_140326 - INFO - 127.0.0.1 - - [21/Dec/2023 14:03:26] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_140326 - INFO - 127.0.0.1 - - [21/Dec/2023 14:03:26] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_140326 - INFO - 127.0.0.1 - - [21/Dec/2023 14:03:26] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_140326 - INFO - 127.0.0.1 - - [21/Dec/2023 14:03:26] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_140921 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_140921 - INFO - [33mPress CTRL+C to quit[0m
+20231221_140921 - INFO -  * Restarting with stat
+20231221_140925 - WARNING -  * Debugger is active!
+20231221_140925 - INFO -  * Debugger PIN: 566-236-966
+20231221_140925 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:25] "GET / HTTP/1.1" 200 -
+20231221_140925 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:25] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_140926 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:26] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_140926 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:26] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_140929 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:29] "GET /admin/ HTTP/1.1" 200 -
+20231221_140929 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:29] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_140929 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:29] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_140929 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:29] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_140929 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:29] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_140929 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:29] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_140929 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:29] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_140929 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:29] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_140931 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:31] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_140931 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:31] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_140931 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:31] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_140931 - INFO - 127.0.0.1 - - [21/Dec/2023 14:09:31] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_141003 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:03] "GET /hello_world HTTP/1.1" 200 -
+20231221_141003 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:03] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+20231221_141003 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:03] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_141003 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:03] "GET / HTTP/1.1" 200 -
+20231221_141003 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:03] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_141003 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:03] "GET /dashboard HTTP/1.1" 200 -
+20231221_141003 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231221_141003 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:03] "GET /login HTTP/1.1" 200 -
+20231221_141003 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:03] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231221_141003 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:03] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231221_141005 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:05] "GET /streaming HTTP/1.1" 200 -
+20231221_141005 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 298, in write
+    self.wfile.write(hex(len(data))[2:].encode())
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 331, in debug_application
+    yield from app_iter
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 273, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 264, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 152, in process_data
+    picture_dates = json.loads(picture_dates_json)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 359, in execute
+    application_iter.close()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 336, in debug_application
+    app_iter.close()  # type: ignore
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 273, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 264, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 152, in process_data
+    picture_dates = json.loads(picture_dates_json)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+20231221_141021 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:21] "[35m[1mGET /admin/users/ HTTP/1.1[0m" 500 -
+20231221_141021 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:21] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_141021 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:21] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_141021 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:21] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_141021 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:21] "[36mGET /admin/users/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_141026 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:26] "GET /login HTTP/1.1" 200 -
+20231221_141026 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:26] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_141026 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:26] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_141030 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:30] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_141030 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:30] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+20231221_141030 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:30] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+20231221_141030 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:30] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+20231221_141030 - INFO - 127.0.0.1 - - [21/Dec/2023 14:10:30] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_141103 - INFO - 127.0.0.1 - - [21/Dec/2023 14:11:03] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+20231221_141103 - INFO - 127.0.0.1 - - [21/Dec/2023 14:11:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_141103 - INFO - 127.0.0.1 - - [21/Dec/2023 14:11:03] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_141103 - INFO - 127.0.0.1 - - [21/Dec/2023 14:11:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_141104 - INFO - 127.0.0.1 - - [21/Dec/2023 14:11:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_141313 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/services.py', reloading
+20231221_141314 - INFO -  * Restarting with stat
+20231221_141318 - WARNING -  * Debugger is active!
+20231221_141318 - INFO -  * Debugger PIN: 566-236-966
+20231221_143618 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_143618 - INFO - [33mPress CTRL+C to quit[0m
+20231221_143618 - INFO -  * Restarting with stat
+20231221_143621 - WARNING -  * Debugger is active!
+20231221_143621 - INFO -  * Debugger PIN: 133-366-164
+20231221_143626 - INFO - 127.0.0.1 - - [21/Dec/2023 14:36:26] "GET / HTTP/1.1" 200 -
+20231221_143626 - INFO - 127.0.0.1 - - [21/Dec/2023 14:36:26] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_143626 - INFO - 127.0.0.1 - - [21/Dec/2023 14:36:26] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_143626 - INFO - 127.0.0.1 - - [21/Dec/2023 14:36:26] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_143627 - INFO - 127.0.0.1 - - [21/Dec/2023 14:36:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+20231221_143641 - INFO - 127.0.0.1 - - [21/Dec/2023 14:36:41] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+20231221_143641 - INFO - 127.0.0.1 - - [21/Dec/2023 14:36:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_143641 - INFO - 127.0.0.1 - - [21/Dec/2023 14:36:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_143641 - INFO - 127.0.0.1 - - [21/Dec/2023 14:36:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_143641 - INFO - 127.0.0.1 - - [21/Dec/2023 14:36:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_143705 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/app.py', reloading
+20231221_161426 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_161426 - INFO - [33mPress CTRL+C to quit[0m
+20231221_161426 - INFO -  * Restarting with stat
+20231221_161430 - WARNING -  * Debugger is active!
+20231221_161430 - INFO -  * Debugger PIN: 133-366-164
+20231221_161430 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:30] "GET / HTTP/1.1" 200 -
+20231221_161430 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:30] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_161430 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:30] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_161430 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:30] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_161431 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:31] "GET /login HTTP/1.1" 200 -
+20231221_161431 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:31] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_161431 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:31] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_161432 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:32] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_161435 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:35] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_161435 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_161435 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_161435 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161435 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161449 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:49] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_161449 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:49] "GET / HTTP/1.1" 200 -
+20231221_161450 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:50] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_161450 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:50] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_161455 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:55] "GET /login HTTP/1.1" 200 -
+20231221_161455 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:55] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_161455 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:55] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_161458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:58] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_161458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_161458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_161458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:14:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:05] "GET /admin/ HTTP/1.1" 200 -
+20231221_161505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:05] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_161505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:05] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_161505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:05] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_161505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:05] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_161505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:05] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_161505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:05] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_161505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:05] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_161508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:08] "GET /admin/users/ HTTP/1.1" 200 -
+20231221_161508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:08] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_161508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:08] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 200 -
+20231221_161508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:08] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1" 200 -
+20231221_161508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:08] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+20231221_161508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:08] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_161508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:08] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_161508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:08] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_161508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:08] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_161508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:08] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_161509 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:09] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_161509 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:09] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+20231221_161509 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:09] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 200 -
+20231221_161509 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:09] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+20231221_161509 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:09] "GET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1" 200 -
+20231221_161510 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:10] "GET /admin/ HTTP/1.1" 200 -
+20231221_161510 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:10] "GET /login HTTP/1.1" 200 -
+20231221_161511 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:11] "GET / HTTP/1.1" 200 -
+20231221_161512 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:12] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_161512 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:12] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_161513 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:13] "GET /login HTTP/1.1" 200 -
+20231221_161513 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:13] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_161513 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:13] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_161516 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:16] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_161516 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_161517 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:17] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_161517 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:17] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161517 - INFO - 127.0.0.1 - - [21/Dec/2023 16:15:17] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161654 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_161654 - INFO - [33mPress CTRL+C to quit[0m
+20231221_161654 - INFO -  * Restarting with stat
+20231221_161658 - WARNING -  * Debugger is active!
+20231221_161658 - INFO -  * Debugger PIN: 133-366-164
+20231221_161658 - INFO - 127.0.0.1 - - [21/Dec/2023 16:16:58] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_161658 - INFO - 127.0.0.1 - - [21/Dec/2023 16:16:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_161658 - INFO - 127.0.0.1 - - [21/Dec/2023 16:16:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_161658 - INFO - 127.0.0.1 - - [21/Dec/2023 16:16:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161658 - INFO - 127.0.0.1 - - [21/Dec/2023 16:16:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161703 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:03] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_161703 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_161704 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:04] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_161704 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:04] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161704 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:04] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161715 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:15] "GET / HTTP/1.1" 200 -
+20231221_161715 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:15] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_161715 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:15] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_161715 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:15] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_161716 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:16] "GET /login HTTP/1.1" 200 -
+20231221_161717 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:17] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_161717 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:17] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_161719 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:19] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_161719 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_161719 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_161719 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161720 - INFO - 127.0.0.1 - - [21/Dec/2023 16:17:20] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_161827 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/log_processor.py', reloading
+20231221_161827 - INFO -  * Restarting with stat
+20231221_161831 - WARNING -  * Debugger is active!
+20231221_161831 - INFO -  * Debugger PIN: 133-366-164
+20231221_161926 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/models.py', reloading
+20231221_161927 - INFO -  * Restarting with stat
+20231221_161949 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_161949 - INFO - [33mPress CTRL+C to quit[0m
+20231221_161949 - INFO -  * Restarting with stat
+20231221_161952 - WARNING -  * Debugger is active!
+20231221_161952 - INFO -  * Debugger PIN: 133-366-164
+20231221_161953 - INFO - 127.0.0.1 - - [21/Dec/2023 16:19:53] "GET / HTTP/1.1" 200 -
+20231221_161953 - INFO - 127.0.0.1 - - [21/Dec/2023 16:19:53] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_161953 - INFO - 127.0.0.1 - - [21/Dec/2023 16:19:53] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_161953 - INFO - 127.0.0.1 - - [21/Dec/2023 16:19:53] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_162010 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:10] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_162010 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:10] "GET / HTTP/1.1" 200 -
+20231221_162010 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:10] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_162010 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:10] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_162011 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:11] "GET /login HTTP/1.1" 200 -
+20231221_162012 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:12] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_162012 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:12] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_162014 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:14] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_162014 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_162014 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_162015 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_162015 - INFO - 127.0.0.1 - - [21/Dec/2023 16:20:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_162054 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/models.py', reloading
+20231221_162054 - INFO -  * Restarting with stat
+20231221_162432 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_162432 - INFO - [33mPress CTRL+C to quit[0m
+20231221_162432 - INFO -  * Restarting with stat
+20231221_162436 - WARNING -  * Debugger is active!
+20231221_162436 - INFO -  * Debugger PIN: 133-366-164
+20231221_162436 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:36] "GET / HTTP/1.1" 200 -
+20231221_162436 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:36] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_162436 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:36] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_162436 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:36] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_162437 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:37] "GET /login HTTP/1.1" 200 -
+20231221_162438 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:38] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_162438 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:38] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_162441 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:41] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_162441 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:41] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_162441 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:41] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_162442 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_162442 - INFO - 127.0.0.1 - - [21/Dec/2023 16:24:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_162630 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/models.py', reloading
+20231221_162631 - INFO -  * Restarting with stat
+20231221_162634 - WARNING -  * Debugger is active!
+20231221_162634 - INFO -  * Debugger PIN: 133-366-164
+20231221_163328 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/models.py', reloading
+20231221_163328 - INFO -  * Restarting with stat
+20231221_163425 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_163425 - INFO - [33mPress CTRL+C to quit[0m
+20231221_163425 - INFO -  * Restarting with stat
+20231221_163429 - WARNING -  * Debugger is active!
+20231221_163429 - INFO -  * Debugger PIN: 133-366-164
+20231221_163429 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:29] "GET / HTTP/1.1" 200 -
+20231221_163429 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:29] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_163429 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:29] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_163429 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:29] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_163439 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:39] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_163439 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:39] "GET / HTTP/1.1" 200 -
+20231221_163439 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:39] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_163440 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:40] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_163441 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:41] "GET /login HTTP/1.1" 200 -
+20231221_163441 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:41] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_163442 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:42] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_163444 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:44] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_163444 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:44] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_163444 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:44] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_163444 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:44] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_163444 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:44] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_163457 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:57] "GET /admin/ HTTP/1.1" 200 -
+20231221_163458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:58] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_163458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:58] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_163458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:58] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_163458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:58] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_163458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:58] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_163458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:58] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_163458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:58] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_163459 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:59] "[35m[1mGET /admin/predictions/ HTTP/1.1[0m" 500 -
+20231221_163459 - INFO - 127.0.0.1 - - [21/Dec/2023 16:34:59] "[36mGET /admin/predictions/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_163500 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:00] "[36mGET /admin/predictions/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_163500 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:00] "[36mGET /admin/predictions/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_163502 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:02] "[35m[1mGET /admin/coins/ HTTP/1.1[0m" 500 -
+20231221_163503 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:03] "GET /admin/coins/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+20231221_163503 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:03] "GET /admin/coins/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+20231221_163503 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:03] "GET /admin/coins/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+20231221_163503 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:03] "[36mGET /admin/coins/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "GET /admin/users/ HTTP/1.1" 200 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_163505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:05] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_163506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:06] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+20231221_163506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:06] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_163506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:06] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_163506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:35:06] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1[0m" 304 -
+20231221_163514 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/models_creation.py', reloading
+20231221_163515 - INFO -  * Restarting with stat
+20231221_163518 - WARNING -  * Debugger is active!
+20231221_163518 - INFO -  * Debugger PIN: 133-366-164
+20231221_163543 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/services.py', reloading
+20231221_163544 - INFO -  * Restarting with stat
+20231221_163547 - WARNING -  * Debugger is active!
+20231221_163547 - INFO -  * Debugger PIN: 133-366-164
+20231221_163557 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/services.py', reloading
+20231221_163558 - INFO -  * Restarting with stat
+20231221_163601 - WARNING -  * Debugger is active!
+20231221_163601 - INFO -  * Debugger PIN: 133-366-164
+20231221_164154 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_164154 - INFO - [33mPress CTRL+C to quit[0m
+20231221_164154 - INFO -  * Restarting with stat
+20231221_164157 - WARNING -  * Debugger is active!
+20231221_164157 - INFO -  * Debugger PIN: 133-366-164
+20231221_164157 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:57] "GET /admin/ HTTP/1.1" 200 -
+20231221_164157 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:57] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164158 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:58] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_164158 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:58] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164158 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:58] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_164158 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:58] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164158 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:58] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_164158 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:58] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_164159 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:59] "GET /admin/users/ HTTP/1.1" 200 -
+20231221_164159 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:59] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164159 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:59] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164159 - INFO - 127.0.0.1 - - [21/Dec/2023 16:41:59] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_164200 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:00] "GET /admin/coins/ HTTP/1.1" 200 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1[0m" 304 -
+20231221_164201 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:01] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "GET /admin/predictions/ HTTP/1.1" 200 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+20231221_164202 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:02] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_164206 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:06] "GET / HTTP/1.1" 200 -
+20231221_164206 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:06] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_164206 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:06] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_164206 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:06] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_164208 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:08] "GET /login HTTP/1.1" 200 -
+20231221_164208 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:08] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_164209 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:09] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_164213 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:13] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_164213 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:13] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_164213 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:13] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_164213 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:13] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_164213 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:13] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_164215 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:15] "GET / HTTP/1.1" 200 -
+20231221_164215 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:15] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_164215 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:15] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_164222 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:22] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_164222 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:22] "GET / HTTP/1.1" 200 -
+20231221_164223 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:23] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_164223 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:23] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_164224 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:24] "GET /login HTTP/1.1" 200 -
+20231221_164225 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:25] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_164225 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:25] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_164227 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:27] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_164227 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:27] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_164227 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:27] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_164227 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:27] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_164228 - INFO - 127.0.0.1 - - [21/Dec/2023 16:42:28] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_164427 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/models.py', reloading
+20231221_164428 - INFO -  * Restarting with stat
+20231221_164809 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_164809 - INFO - [33mPress CTRL+C to quit[0m
+20231221_164809 - INFO -  * Restarting with stat
+20231221_164813 - WARNING -  * Debugger is active!
+20231221_164813 - INFO -  * Debugger PIN: 133-366-164
+20231221_164813 - INFO - 127.0.0.1 - - [21/Dec/2023 16:48:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+20231221_164813 - INFO - 127.0.0.1 - - [21/Dec/2023 16:48:13] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_164813 - INFO - 127.0.0.1 - - [21/Dec/2023 16:48:13] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_164813 - INFO - 127.0.0.1 - - [21/Dec/2023 16:48:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_164813 - INFO - 127.0.0.1 - - [21/Dec/2023 16:48:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165009 - INFO - 127.0.0.1 - - [21/Dec/2023 16:50:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+20231221_165009 - INFO - 127.0.0.1 - - [21/Dec/2023 16:50:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_165009 - INFO - 127.0.0.1 - - [21/Dec/2023 16:50:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_165009 - INFO - 127.0.0.1 - - [21/Dec/2023 16:50:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165009 - INFO - 127.0.0.1 - - [21/Dec/2023 16:50:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165234 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_165234 - INFO - [33mPress CTRL+C to quit[0m
+20231221_165234 - INFO -  * Restarting with stat
+20231221_165237 - WARNING -  * Debugger is active!
+20231221_165237 - INFO -  * Debugger PIN: 464-179-468
+20231221_165238 - INFO - 127.0.0.1 - - [21/Dec/2023 16:52:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+20231221_165238 - INFO - 127.0.0.1 - - [21/Dec/2023 16:52:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_165238 - INFO - 127.0.0.1 - - [21/Dec/2023 16:52:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_165238 - INFO - 127.0.0.1 - - [21/Dec/2023 16:52:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165312 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/models.py', reloading
+20231221_165313 - INFO -  * Restarting with stat
+20231221_165317 - WARNING -  * Debugger is active!
+20231221_165317 - INFO -  * Debugger PIN: 464-179-468
+20231221_165317 - INFO - 127.0.0.1 - - [21/Dec/2023 16:53:17] "GET / HTTP/1.1" 200 -
+20231221_165317 - INFO - 127.0.0.1 - - [21/Dec/2023 16:53:17] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_165317 - INFO - 127.0.0.1 - - [21/Dec/2023 16:53:17] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_165317 - INFO - 127.0.0.1 - - [21/Dec/2023 16:53:17] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_165317 - INFO - 127.0.0.1 - - [21/Dec/2023 16:53:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+20231221_165333 - INFO - 127.0.0.1 - - [21/Dec/2023 16:53:33] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+20231221_165333 - INFO - 127.0.0.1 - - [21/Dec/2023 16:53:33] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_165333 - INFO - 127.0.0.1 - - [21/Dec/2023 16:53:33] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_165333 - INFO - 127.0.0.1 - - [21/Dec/2023 16:53:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165333 - INFO - 127.0.0.1 - - [21/Dec/2023 16:53:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165444 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/models.py', reloading
+20231221_165445 - INFO -  * Restarting with stat
+20231221_165448 - WARNING -  * Debugger is active!
+20231221_165448 - INFO -  * Debugger PIN: 464-179-468
+20231221_165448 - INFO - 127.0.0.1 - - [21/Dec/2023 16:54:48] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+20231221_165449 - INFO - 127.0.0.1 - - [21/Dec/2023 16:54:49] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_165449 - INFO - 127.0.0.1 - - [21/Dec/2023 16:54:49] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_165449 - INFO - 127.0.0.1 - - [21/Dec/2023 16:54:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165449 - INFO - 127.0.0.1 - - [21/Dec/2023 16:54:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:54:58] "GET /login HTTP/1.1" 200 -
+20231221_165458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:54:58] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_165458 - INFO - 127.0.0.1 - - [21/Dec/2023 16:54:58] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_165502 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:02] "GET /admin/ HTTP/1.1" 200 -
+20231221_165502 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:02] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165502 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:02] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165502 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:02] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_165502 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:02] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_165502 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:02] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165502 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:02] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_165502 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:02] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_165504 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:04] "GET /admin/users/ HTTP/1.1" 200 -
+20231221_165504 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:04] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165504 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:04] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165504 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:04] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_165504 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:04] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_165504 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:04] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_165504 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:04] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165504 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:04] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_165504 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:04] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_165505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:05] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_165505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:05] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_165505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:05] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_165505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:05] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+20231221_165505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:05] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_165505 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:05] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "GET /admin/coins/ HTTP/1.1" 200 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_165506 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:06] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_165507 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:07] "GET /admin/predictions/ HTTP/1.1" 200 -
+20231221_165507 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:07] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165507 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:07] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_165508 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:08] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+20231221_165512 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:12] "GET /admin/coins/ HTTP/1.1" 200 -
+20231221_165512 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:12] "GET /admin/users/ HTTP/1.1" 200 -
+20231221_165513 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:13] "GET /admin/ HTTP/1.1" 200 -
+20231221_165513 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:13] "GET /login HTTP/1.1" 200 -
+20231221_165521 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:21] "GET /hello_world HTTP/1.1" 200 -
+20231221_165521 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:21] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_165521 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:21] "GET / HTTP/1.1" 200 -
+20231221_165522 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:22] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_165522 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:22] "GET / HTTP/1.1" 200 -
+20231221_165522 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:22] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_165522 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:22] "GET /dashboard HTTP/1.1" 200 -
+20231221_165522 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231221_165522 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:22] "GET /login HTTP/1.1" 200 -
+20231221_165522 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:22] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231221_165522 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:22] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231221_165524 - INFO - 127.0.0.1 - - [21/Dec/2023 16:55:24] "GET /streaming HTTP/1.1" 200 -
+20231221_165524 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 298, in write
+    self.wfile.write(hex(len(data))[2:].encode())
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 331, in debug_application
+    yield from app_iter
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 273, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 264, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 152, in process_data
+    picture_dates = json.loads(picture_dates_json)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 359, in execute
+    application_iter.close()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 336, in debug_application
+    app_iter.close()  # type: ignore
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 273, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 264, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 152, in process_data
+    picture_dates = json.loads(picture_dates_json)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+20231221_165705 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:05] "GET / HTTP/1.1" 200 -
+20231221_165705 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:05] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_165705 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:05] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_165705 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:05] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_165718 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:18] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_165718 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:18] "GET / HTTP/1.1" 200 -
+20231221_165719 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:19] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_165719 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:19] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_165721 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:21] "GET /login HTTP/1.1" 200 -
+20231221_165721 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:21] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_165721 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:21] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_165726 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:26] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_165726 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_165726 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_165726 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165726 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "GET /hello_world HTTP/1.1" 200 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "GET / HTTP/1.1" 200 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "GET / HTTP/1.1" 200 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "GET /dashboard HTTP/1.1" 200 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "GET /login HTTP/1.1" 200 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231221_165735 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:35] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231221_165737 - INFO - 127.0.0.1 - - [21/Dec/2023 16:57:37] "GET /streaming HTTP/1.1" 200 -
+20231221_165737 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 298, in write
+    self.wfile.write(hex(len(data))[2:].encode())
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 331, in debug_application
+    yield from app_iter
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 273, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 264, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 152, in process_data
+    picture_dates = json.loads(picture_dates_json)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 359, in execute
+    application_iter.close()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/debug/__init__.py", line 336, in debug_application
+    app_iter.close()  # type: ignore
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wsgi.py", line 260, in close
+    callback()
+  File "/workspaces/AiCoinXpert/.venv/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 407, in close
+    func()
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 273, in run_data_processing_thread
+    loop.run_until_complete(run_data_processing())
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/AiCoinXpert/src/backend/app.py", line 264, in run_data_processing
+    await data_processor.process_data()
+  File "/workspaces/AiCoinXpert/src/backend/log_processor.py", line 152, in process_data
+    picture_dates = json.loads(picture_dates_json)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.pyenv/versions/3.11.7/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "GET /hello_world HTTP/1.1" 200 -
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "GET / HTTP/1.1" 200 -
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "GET / HTTP/1.1" 200 -
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "GET /dashboard HTTP/1.1" 200 -
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "GET /login HTTP/1.1" 200 -
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231221_165809 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:09] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231221_165811 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:11] "GET /streaming HTTP/1.1" 200 -
+20231221_165836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_165836 - INFO - [33mPress CTRL+C to quit[0m
+20231221_165836 - INFO -  * Restarting with stat
+20231221_165840 - WARNING -  * Debugger is active!
+20231221_165840 - INFO -  * Debugger PIN: 464-179-468
+20231221_165841 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:41] "GET / HTTP/1.1" 200 -
+20231221_165841 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:41] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_165841 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:41] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_165842 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:42] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_165843 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:43] "GET /login HTTP/1.1" 200 -
+20231221_165843 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:43] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_165843 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:43] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_165848 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:48] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_165848 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:48] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_165848 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:48] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_165849 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_165849 - INFO - 127.0.0.1 - - [21/Dec/2023 16:58:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_170146 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_170146 - INFO - [33mPress CTRL+C to quit[0m
+20231221_170146 - INFO -  * Restarting with stat
+20231221_170149 - WARNING -  * Debugger is active!
+20231221_170149 - INFO -  * Debugger PIN: 464-179-468
+20231221_170218 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:18] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_170218 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:18] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_170218 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:18] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_170218 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:18] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_170231 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_170231 - INFO - [33mPress CTRL+C to quit[0m
+20231221_170231 - INFO -  * Restarting with stat
+20231221_170235 - WARNING -  * Debugger is active!
+20231221_170235 - INFO -  * Debugger PIN: 464-179-468
+20231221_170238 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/app.py', reloading
+20231221_170239 - INFO -  * Restarting with stat
+20231221_170244 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_170244 - INFO - [33mPress CTRL+C to quit[0m
+20231221_170244 - INFO -  * Restarting with stat
+20231221_170248 - WARNING -  * Debugger is active!
+20231221_170248 - INFO -  * Debugger PIN: 464-179-468
+20231221_170254 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:54] "GET / HTTP/1.1" 200 -
+20231221_170254 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:54] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_170255 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:55] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_170255 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:55] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_170256 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:56] "GET /login HTTP/1.1" 200 -
+20231221_170256 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:56] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_170256 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:56] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_170259 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:59] "POST /login HTTP/1.1" 200 -
+20231221_170259 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:59] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_170259 - INFO - 127.0.0.1 - - [21/Dec/2023 17:02:59] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_170305 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:05] "GET / HTTP/1.1" 200 -
+20231221_170305 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:05] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_170305 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:05] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_170310 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:10] "GET /login HTTP/1.1" 200 -
+20231221_170310 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:10] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_170310 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:10] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_170314 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231221_170314 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:14] "GET /dashboard HTTP/1.1" 200 -
+20231221_170314 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:14] "GET /static/styles/dashboard_style.css HTTP/1.1" 200 -
+20231221_170322 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:22] "GET /streaming HTTP/1.1" 200 -
+20231221_170322 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 270.000,y1: 188.000, x2: 321.000, y2: 237.000]
+20231221_170322 - INFO - Class: EUR-1-cent, Degree Of Certainty: 72, Region Of Interest:[x1: 272.000,y1: 187.000, x2: 323.000, y2: 237.000]
+20231221_170323 - INFO - Class: EUR-1-cent, Degree Of Certainty: 71, Region Of Interest:[x1: 276.000,y1: 187.000, x2: 325.000, y2: 237.000]
+20231221_170330 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:30] "GET /wallet HTTP/1.1" 200 -
+20231221_170330 - INFO - 127.0.0.1 - - [21/Dec/2023 17:03:30] "GET /static/styles/wallet_style.css HTTP/1.1" 200 -
+20231221_170801 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_170801 - INFO - [33mPress CTRL+C to quit[0m
+20231221_170801 - INFO -  * Restarting with stat
+20231221_170805 - WARNING -  * Debugger is active!
+20231221_170805 - INFO -  * Debugger PIN: 464-179-468
+20231221_170807 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:07] "GET / HTTP/1.1" 200 -
+20231221_170807 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:07] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_170807 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:07] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_170807 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:07] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_170828 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:28] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_170828 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:28] "GET / HTTP/1.1" 200 -
+20231221_170828 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:28] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_170828 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:28] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_170830 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:30] "GET /login HTTP/1.1" 200 -
+20231221_170830 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:30] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_170830 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:30] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_170832 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231221_170832 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:32] "GET /dashboard HTTP/1.1" 200 -
+20231221_170833 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:33] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231221_170836 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:36] "GET /wallet HTTP/1.1" 200 -
+20231221_170836 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:36] "[36mGET /static/styles/wallet_style.css HTTP/1.1[0m" 304 -
+20231221_170842 - INFO - 127.0.0.1 - - [21/Dec/2023 17:08:42] "GET /streaming HTTP/1.1" 200 -
+20231221_170843 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 337.000,y1: 201.000, x2: 387.000, y2: 249.000]
+20231221_170845 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 347.000,y1: 199.000, x2: 394.000, y2: 248.000]
+20231221_202808 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_202808 - INFO - [33mPress CTRL+C to quit[0m
+20231221_202808 - INFO -  * Restarting with stat
+20231221_202811 - WARNING -  * Debugger is active!
+20231221_202811 - INFO -  * Debugger PIN: 464-179-468
+20231221_202814 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:14] "GET /dashboard HTTP/1.1" 200 -
+20231221_202814 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:14] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231221_202816 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231221_202816 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:16] "GET /login HTTP/1.1" 200 -
+20231221_202816 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:16] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_202816 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:16] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_202816 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:16] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_202818 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:18] "GET / HTTP/1.1" 200 -
+20231221_202818 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:18] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_202818 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:18] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_202828 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:28] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_202828 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:28] "GET / HTTP/1.1" 200 -
+20231221_202828 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:28] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_202828 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:28] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_202830 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:30] "GET /login HTTP/1.1" 200 -
+20231221_202830 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:30] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_202830 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:30] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_202834 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231221_202834 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:34] "GET /dashboard HTTP/1.1" 200 -
+20231221_202834 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:34] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231221_202838 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:38] "GET /wallet HTTP/1.1" 200 -
+20231221_202838 - INFO - 127.0.0.1 - - [21/Dec/2023 20:28:38] "[36mGET /static/styles/wallet_style.css HTTP/1.1[0m" 304 -
+20231221_202942 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_202942 - INFO - [33mPress CTRL+C to quit[0m
+20231221_202942 - INFO -  * Restarting with stat
+20231221_202946 - WARNING -  * Debugger is active!
+20231221_202946 - INFO -  * Debugger PIN: 464-179-468
+20231221_202946 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:46] "GET / HTTP/1.1" 200 -
+20231221_202946 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:46] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_202946 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:46] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_202946 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:46] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_202948 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:48] "GET /login HTTP/1.1" 200 -
+20231221_202948 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:48] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_202948 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:48] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_202955 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:55] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+20231221_202955 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:55] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+20231221_202955 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:55] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+20231221_202955 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:55] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_202955 - INFO - 127.0.0.1 - - [21/Dec/2023 20:29:55] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+20231221_203005 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/app.py', reloading
+20231221_203005 - INFO -  * Restarting with stat
+20231221_203012 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_203012 - INFO - [33mPress CTRL+C to quit[0m
+20231221_203012 - INFO -  * Restarting with stat
+20231221_203016 - WARNING -  * Debugger is active!
+20231221_203016 - INFO -  * Debugger PIN: 464-179-468
+20231221_203016 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231221_203016 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:16] "GET /dashboard HTTP/1.1" 200 -
+20231221_203016 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:16] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "GET /hello_world HTTP/1.1" 200 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "GET / HTTP/1.1" 200 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "POST /login HTTP/1.1" 200 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "GET / HTTP/1.1" 200 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "POST /login HTTP/1.1" 200 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "GET /dashboard HTTP/1.1" 200 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "GET /login HTTP/1.1" 200 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "[32mGET /wallet HTTP/1.1[0m" 302 -
+20231221_203027 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:27] "GET /login?next=/wallet HTTP/1.1" 200 -
+20231221_203029 - INFO - 127.0.0.1 - - [21/Dec/2023 20:30:29] "GET /streaming HTTP/1.1" 200 -
+20231221_203256 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_203256 - INFO - [33mPress CTRL+C to quit[0m
+20231221_203256 - INFO -  * Restarting with stat
+20231221_203300 - WARNING -  * Debugger is active!
+20231221_203300 - INFO -  * Debugger PIN: 464-179-468
+20231221_203300 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:00] "GET / HTTP/1.1" 200 -
+20231221_203300 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:00] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_203300 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:00] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_203300 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:00] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -
+20231221_203302 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:02] "GET /login HTTP/1.1" 200 -
+20231221_203302 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:02] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_203302 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:02] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_203306 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:06] "GET / HTTP/1.1" 200 -
+20231221_203307 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:07] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_203307 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:07] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_203321 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:21] "[32mPOST / HTTP/1.1[0m" 302 -
+20231221_203321 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:21] "GET / HTTP/1.1" 200 -
+20231221_203321 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:21] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_203321 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:21] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_203323 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:23] "GET /login HTTP/1.1" 200 -
+20231221_203323 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:23] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_203323 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:23] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_203326 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+20231221_203326 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:26] "GET /dashboard HTTP/1.1" 200 -
+20231221_203326 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:26] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231221_203332 - INFO - 127.0.0.1 - - [21/Dec/2023 20:33:32] "GET /streaming HTTP/1.1" 200 -
+20231221_203349 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/app.py', reloading
+20231221_203349 - INFO -  * Restarting with stat
+20231221_203353 - WARNING -  * Debugger is active!
+20231221_203353 - INFO -  * Debugger PIN: 464-179-468
+20231221_203402 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/app.py', reloading
+20231221_203410 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+20231221_203410 - INFO - [33mPress CTRL+C to quit[0m
+20231221_203410 - INFO -  * Restarting with stat
+20231221_203414 - WARNING -  * Debugger is active!
+20231221_203414 - INFO -  * Debugger PIN: 464-179-468
+20231221_203425 - INFO - 127.0.0.1 - - [21/Dec/2023 20:34:25] "GET /dashboard HTTP/1.1" 200 -
+20231221_203426 - INFO - 127.0.0.1 - - [21/Dec/2023 20:34:26] "[36mGET /static/styles/dashboard_style.css HTTP/1.1[0m" 304 -
+20231221_203428 - INFO - 127.0.0.1 - - [21/Dec/2023 20:34:28] "GET /wallet HTTP/1.1" 200 -
+20231221_203428 - INFO - 127.0.0.1 - - [21/Dec/2023 20:34:28] "[36mGET /static/styles/wallet_style.css HTTP/1.1[0m" 304 -
+20231221_203432 - INFO - Class: EUR-2-euro, Degree Of Certainty: 80, Region Of Interest:[x1: 407.000,y1: 184.000, x2: 556.000, y2: 335.000]
+20231221_203432 - INFO - 127.0.0.1 - - [21/Dec/2023 20:34:32] "GET /streaming HTTP/1.1" 200 -
+20231221_203432 - INFO - Class: EUR-2-euro, Degree Of Certainty: 67, Region Of Interest:[x1: 159.000,y1: 161.000, x2: 288.000, y2: 289.000]
+20231221_203432 - INFO - Class: EUR-2-euro, Degree Of Certainty: 67, Region Of Interest:[x1: 406.000,y1: 182.000, x2: 561.000, y2: 333.000]
+20231221_203432 - INFO - Class: EUR-2-cent, Degree Of Certainty: 71, Region Of Interest:[x1: 384.000,y1: 64.000, x2: 492.000, y2: 174.000]
+20231221_203432 - INFO - Class: EUR-2-cent, Degree Of Certainty: 70, Region Of Interest:[x1: 384.000,y1: 64.000, x2: 492.000, y2: 174.000]
+20231221_203432 - INFO - Class: EUR-2-euro, Degree Of Certainty: 68, Region Of Interest:[x1: 160.000,y1: 161.000, x2: 294.000, y2: 289.000]
+20231221_203433 - INFO - Class: EUR-2-euro, Degree Of Certainty: 73, Region Of Interest:[x1: 160.000,y1: 160.000, x2: 296.000, y2: 288.000]
+20231221_203433 - INFO - Class: EUR-2-cent, Degree Of Certainty: 69, Region Of Interest:[x1: 384.000,y1: 64.000, x2: 492.000, y2: 173.000]
+20231221_203433 - INFO - Class: EUR-2-euro, Degree Of Certainty: 83, Region Of Interest:[x1: 404.000,y1: 179.000, x2: 548.000, y2: 330.000]
+20231221_203433 - INFO - Class: EUR-2-cent, Degree Of Certainty: 67, Region Of Interest:[x1: 543.000,y1: 154.000, x2: 638.000, y2: 263.000]
+20231221_203433 - INFO - Class: EUR-2-euro, Degree Of Certainty: 85, Region Of Interest:[x1: 406.000,y1: 178.000, x2: 554.000, y2: 330.000]
+20231221_203433 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 407.000,y1: 177.000, x2: 555.000, y2: 328.000]
+20231221_203433 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 407.000,y1: 176.000, x2: 555.000, y2: 327.000]
+20231221_203433 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 408.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203433 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 408.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203433 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 408.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203433 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 409.000,y1: 177.000, x2: 555.000, y2: 324.000]
+20231221_203433 - INFO - Class: EUR-1-cent, Degree Of Certainty: 71, Region Of Interest:[x1: 255.000,y1: 1.000, x2: 361.000, y2: 105.000]
+20231221_203434 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 409.000,y1: 177.000, x2: 555.000, y2: 324.000]
+20231221_203434 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 255.000,y1: 1.000, x2: 361.000, y2: 105.000]
+20231221_203434 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 409.000,y1: 177.000, x2: 555.000, y2: 324.000]
+20231221_203434 - INFO - Class: EUR-1-euro, Degree Of Certainty: 75, Region Of Interest:[x1: 165.000,y1: 167.000, x2: 303.000, y2: 287.000]
+20231221_203434 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203434 - INFO - Class: EUR-1-euro, Degree Of Certainty: 73, Region Of Interest:[x1: 166.000,y1: 168.000, x2: 302.000, y2: 286.000]
+20231221_203434 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 556.000, y2: 324.000]
+20231221_203434 - INFO - Class: EUR-1-cent, Degree Of Certainty: 67, Region Of Interest:[x1: 304.000,y1: 136.000, x2: 422.000, y2: 260.000]
+20231221_203434 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 386.000,y1: 63.000, x2: 492.000, y2: 169.000]
+20231221_203434 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 556.000, y2: 325.000]
+20231221_203434 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 385.000,y1: 63.000, x2: 492.000, y2: 169.000]
+20231221_203434 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203434 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203434 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203435 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 556.000, y2: 325.000]
+20231221_203435 - INFO - Class: EUR-1-cent, Degree Of Certainty: 67, Region Of Interest:[x1: 385.000,y1: 61.000, x2: 493.000, y2: 169.000]
+20231221_203435 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203435 - INFO - Class: EUR-1-cent, Degree Of Certainty: 68, Region Of Interest:[x1: 255.000,y1: 1.000, x2: 360.000, y2: 104.000]
+20231221_203435 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 386.000,y1: 62.000, x2: 492.000, y2: 169.000]
+20231221_203435 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 556.000, y2: 325.000]
+20231221_203435 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 556.000, y2: 325.000]
+20231221_203435 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 556.000, y2: 325.000]
+20231221_203435 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 556.000, y2: 325.000]
+20231221_203435 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203435 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203436 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203436 - INFO - Class: EUR-1-euro, Degree Of Certainty: 66, Region Of Interest:[x1: 165.000,y1: 166.000, x2: 303.000, y2: 285.000]
+20231221_203436 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203436 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203436 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203436 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203436 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203436 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203436 - INFO - Class: EUR-1-euro, Degree Of Certainty: 67, Region Of Interest:[x1: 164.000,y1: 166.000, x2: 302.000, y2: 285.000]
+20231221_203436 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203436 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203437 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203437 - INFO - Class: EUR-1-euro, Degree Of Certainty: 68, Region Of Interest:[x1: 167.000,y1: 167.000, x2: 302.000, y2: 285.000]
+20231221_203437 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203437 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203437 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 177.000, x2: 555.000, y2: 325.000]
+20231221_203437 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203437 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203437 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203447 - INFO - 127.0.0.1 - - [21/Dec/2023 20:34:47] "GET /wallet HTTP/1.1" 200 -
+20231221_203447 - INFO - 127.0.0.1 - - [21/Dec/2023 20:34:47] "[36mGET /static/styles/wallet_style.css HTTP/1.1[0m" 304 -
+20231221_203501 - INFO - 127.0.0.1 - - [21/Dec/2023 20:35:01] "GET /wallet HTTP/1.1" 200 -
+20231221_203501 - INFO - 127.0.0.1 - - [21/Dec/2023 20:35:01] "[36mGET /static/styles/wallet_style.css HTTP/1.1[0m" 304 -
+20231221_203510 - INFO -  * Detected change in '/workspaces/AiCoinXpert/src/backend/app.py', reloading
+20231221_203510 - INFO -  * Restarting with stat
+20231221_203514 - WARNING -  * Debugger is active!
+20231221_203514 - INFO -  * Debugger PIN: 464-179-468
+20231221_203516 - INFO - Class: EUR-2-euro, Degree Of Certainty: 82, Region Of Interest:[x1: 402.000,y1: 187.000, x2: 548.000, y2: 331.000]
+20231221_203516 - INFO - Class: EUR-1-cent, Degree Of Certainty: 67, Region Of Interest:[x1: 255.000,y1: 3.000, x2: 364.000, y2: 107.000]
+20231221_203516 - INFO - Class: EUR-2-cent, Degree Of Certainty: 67, Region Of Interest:[x1: 384.000,y1: 64.000, x2: 491.000, y2: 173.000]
+20231221_203516 - INFO - 127.0.0.1 - - [21/Dec/2023 20:35:16] "GET /streaming HTTP/1.1" 200 -
+20231221_203516 - INFO - Class: EUR-2-euro, Degree Of Certainty: 82, Region Of Interest:[x1: 402.000,y1: 185.000, x2: 548.000, y2: 332.000]
+20231221_203516 - INFO - Class: EUR-2-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 383.000,y1: 65.000, x2: 491.000, y2: 173.000]
+20231221_203516 - INFO - Class: EUR-2-euro, Degree Of Certainty: 83, Region Of Interest:[x1: 403.000,y1: 184.000, x2: 546.000, y2: 330.000]
+20231221_203516 - INFO - Class: EUR-2-cent, Degree Of Certainty: 68, Region Of Interest:[x1: 383.000,y1: 64.000, x2: 491.000, y2: 173.000]
+20231221_203516 - INFO - Class: EUR-2-euro, Degree Of Certainty: 82, Region Of Interest:[x1: 402.000,y1: 186.000, x2: 542.000, y2: 330.000]
+20231221_203516 - INFO - Class: EUR-2-cent, Degree Of Certainty: 67, Region Of Interest:[x1: 383.000,y1: 64.000, x2: 491.000, y2: 173.000]
+20231221_203516 - INFO - Class: EUR-2-euro, Degree Of Certainty: 83, Region Of Interest:[x1: 403.000,y1: 184.000, x2: 546.000, y2: 331.000]
+20231221_203516 - INFO - Class: EUR-2-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 383.000,y1: 64.000, x2: 491.000, y2: 173.000]
+20231221_203516 - INFO - Class: EUR-2-euro, Degree Of Certainty: 82, Region Of Interest:[x1: 403.000,y1: 179.000, x2: 551.000, y2: 331.000]
+20231221_203516 - INFO - Class: EUR-2-cent, Degree Of Certainty: 68, Region Of Interest:[x1: 543.000,y1: 154.000, x2: 638.000, y2: 263.000]
+20231221_203516 - INFO - Class: EUR-2-euro, Degree Of Certainty: 87, Region Of Interest:[x1: 406.000,y1: 176.000, x2: 555.000, y2: 329.000]
+20231221_203516 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 407.000,y1: 176.000, x2: 555.000, y2: 327.000]
+20231221_203517 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 408.000,y1: 176.000, x2: 555.000, y2: 326.000]
+20231221_203517 - INFO - Class: EUR-2-euro, Degree Of Certainty: 89, Region Of Interest:[x1: 408.000,y1: 175.000, x2: 555.000, y2: 326.000]
+20231221_203517 - INFO - Class: EUR-2-euro, Degree Of Certainty: 90, Region Of Interest:[x1: 408.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203517 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 409.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203517 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 409.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203517 - INFO - Class: EUR-1-cent, Degree Of Certainty: 68, Region Of Interest:[x1: 255.000,y1: 1.000, x2: 361.000, y2: 105.000]
+20231221_203517 - INFO - Class: EUR-1-euro, Degree Of Certainty: 67, Region Of Interest:[x1: 162.000,y1: 163.000, x2: 305.000, y2: 287.000]
+20231221_203517 - INFO - Class: EUR-2-euro, Degree Of Certainty: 91, Region Of Interest:[x1: 409.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203517 - INFO - Class: EUR-1-euro, Degree Of Certainty: 72, Region Of Interest:[x1: 164.000,y1: 165.000, x2: 304.000, y2: 286.000]
+20231221_203517 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203517 - INFO - Class: EUR-1-euro, Degree Of Certainty: 72, Region Of Interest:[x1: 164.000,y1: 166.000, x2: 303.000, y2: 287.000]
+20231221_203517 - INFO - Class: EUR-1-cent, Degree Of Certainty: 67, Region Of Interest:[x1: 256.000,y1: 1.000, x2: 360.000, y2: 104.000]
+20231221_203517 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203517 - INFO - Class: EUR-1-euro, Degree Of Certainty: 66, Region Of Interest:[x1: 165.000,y1: 166.000, x2: 303.000, y2: 286.000]
+20231221_203517 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203517 - INFO - Class: EUR-1-euro, Degree Of Certainty: 66, Region Of Interest:[x1: 167.000,y1: 168.000, x2: 302.000, y2: 285.000]
+20231221_203517 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 257.000,y1: 1.000, x2: 360.000, y2: 104.000]
+20231221_203517 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203517 - INFO - Class: EUR-1-euro, Degree Of Certainty: 74, Region Of Interest:[x1: 164.000,y1: 167.000, x2: 302.000, y2: 286.000]
+20231221_203518 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203518 - INFO - Class: EUR-1-euro, Degree Of Certainty: 70, Region Of Interest:[x1: 172.000,y1: 167.000, x2: 302.000, y2: 284.000]
+20231221_203518 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203518 - INFO - Class: EUR-1-euro, Degree Of Certainty: 66, Region Of Interest:[x1: 165.000,y1: 166.000, x2: 302.000, y2: 285.000]
+20231221_203518 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203518 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203518 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203518 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203518 - INFO - Class: EUR-1-cent, Degree Of Certainty: 67, Region Of Interest:[x1: 255.000,y1: 1.000, x2: 361.000, y2: 104.000]
+20231221_203518 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203518 - INFO - Class: EUR-1-cent, Degree Of Certainty: 69, Region Of Interest:[x1: 255.000,y1: 1.000, x2: 361.000, y2: 104.000]
+20231221_203518 - INFO - Class: EUR-1-cent, Degree Of Certainty: 67, Region Of Interest:[x1: 304.000,y1: 136.000, x2: 422.000, y2: 259.000]
+20231221_203518 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203518 - INFO - Class: EUR-1-cent, Degree Of Certainty: 69, Region Of Interest:[x1: 255.000,y1: 1.000, x2: 360.000, y2: 105.000]
+20231221_203518 - INFO - Class: EUR-1-euro, Degree Of Certainty: 67, Region Of Interest:[x1: 162.000,y1: 163.000, x2: 304.000, y2: 286.000]
+20231221_203518 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 547.000,y1: 154.000, x2: 639.000, y2: 261.000]
+20231221_203518 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203518 - INFO - Class: EUR-1-euro, Degree Of Certainty: 72, Region Of Interest:[x1: 163.000,y1: 165.000, x2: 303.000, y2: 286.000]
+20231221_203518 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 547.000,y1: 154.000, x2: 639.000, y2: 261.000]
+20231221_203518 - INFO - Class: EUR-1-cent, Degree Of Certainty: 66, Region Of Interest:[x1: 255.000,y1: 1.000, x2: 360.000, y2: 105.000]
+20231221_203519 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203519 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203519 - INFO - Class: EUR-1-euro, Degree Of Certainty: 69, Region Of Interest:[x1: 164.000,y1: 166.000, x2: 303.000, y2: 285.000]
+20231221_203519 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203519 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203519 - INFO - Class: EUR-1-euro, Degree Of Certainty: 71, Region Of Interest:[x1: 169.000,y1: 167.000, x2: 302.000, y2: 285.000]
+20231221_203519 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203519 - INFO - Class: EUR-1-euro, Degree Of Certainty: 73, Region Of Interest:[x1: 169.000,y1: 167.000, x2: 301.000, y2: 285.000]
+20231221_203519 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203519 - INFO - Class: EUR-1-euro, Degree Of Certainty: 66, Region Of Interest:[x1: 167.000,y1: 167.000, x2: 301.000, y2: 285.000]
+20231221_203519 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203519 - INFO - Class: EUR-1-euro, Degree Of Certainty: 71, Region Of Interest:[x1: 167.000,y1: 167.000, x2: 302.000, y2: 285.000]
+20231221_203519 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203519 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203519 - INFO - Class: EUR-1-euro, Degree Of Certainty: 74, Region Of Interest:[x1: 171.000,y1: 168.000, x2: 302.000, y2: 284.000]
+20231221_203519 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203519 - INFO - Class: EUR-1-euro, Degree Of Certainty: 76, Region Of Interest:[x1: 176.000,y1: 168.000, x2: 302.000, y2: 284.000]
+20231221_203520 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203520 - INFO - Class: EUR-1-euro, Degree Of Certainty: 68, Region Of Interest:[x1: 170.000,y1: 167.000, x2: 302.000, y2: 285.000]
+20231221_203520 - INFO - Class: EUR-2-euro, Degree Of Certainty: 93, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203520 - INFO - Class: EUR-1-euro, Degree Of Certainty: 72, Region Of Interest:[x1: 171.000,y1: 168.000, x2: 301.000, y2: 285.000]
+20231221_203520 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203520 - INFO - Class: EUR-1-euro, Degree Of Certainty: 66, Region Of Interest:[x1: 168.000,y1: 168.000, x2: 301.000, y2: 285.000]
+20231221_203520 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203520 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203520 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203520 - INFO - Class: EUR-1-euro, Degree Of Certainty: 73, Region Of Interest:[x1: 167.000,y1: 167.000, x2: 301.000, y2: 284.000]
+20231221_203520 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203520 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203520 - INFO - Class: EUR-1-euro, Degree Of Certainty: 73, Region Of Interest:[x1: 170.000,y1: 168.000, x2: 302.000, y2: 284.000]
+20231221_203520 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203520 - INFO - Class: EUR-1-euro, Degree Of Certainty: 75, Region Of Interest:[x1: 169.000,y1: 168.000, x2: 301.000, y2: 284.000]
+20231221_203521 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203521 - INFO - Class: EUR-1-euro, Degree Of Certainty: 76, Region Of Interest:[x1: 168.000,y1: 167.000, x2: 301.000, y2: 285.000]
+20231221_203521 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203521 - INFO - Class: EUR-1-euro, Degree Of Certainty: 69, Region Of Interest:[x1: 169.000,y1: 167.000, x2: 302.000, y2: 285.000]
+20231221_203521 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203521 - INFO - Class: EUR-1-euro, Degree Of Certainty: 66, Region Of Interest:[x1: 169.000,y1: 168.000, x2: 302.000, y2: 285.000]
+20231221_203521 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203521 - INFO - Class: EUR-1-euro, Degree Of Certainty: 66, Region Of Interest:[x1: 169.000,y1: 167.000, x2: 302.000, y2: 285.000]
+20231221_203521 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 410.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203521 - INFO - Class: EUR-1-euro, Degree Of Certainty: 72, Region Of Interest:[x1: 166.000,y1: 165.000, x2: 302.000, y2: 286.000]
+20231221_203521 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203521 - INFO - Class: EUR-1-euro, Degree Of Certainty: 73, Region Of Interest:[x1: 170.000,y1: 168.000, x2: 302.000, y2: 285.000]
+20231221_203521 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203521 - INFO - Class: EUR-1-euro, Degree Of Certainty: 72, Region Of Interest:[x1: 166.000,y1: 167.000, x2: 302.000, y2: 285.000]
+20231221_203521 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203521 - INFO - Class: EUR-1-euro, Degree Of Certainty: 71, Region Of Interest:[x1: 168.000,y1: 167.000, x2: 302.000, y2: 285.000]
+20231221_203521 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 324.000]
+20231221_203521 - INFO - Class: EUR-1-euro, Degree Of Certainty: 73, Region Of Interest:[x1: 166.000,y1: 166.000, x2: 302.000, y2: 285.000]
+20231221_203521 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203521 - INFO - Class: EUR-1-euro, Degree Of Certainty: 78, Region Of Interest:[x1: 167.000,y1: 167.000, x2: 302.000, y2: 285.000]
+20231221_203522 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203522 - INFO - Class: EUR-1-euro, Degree Of Certainty: 77, Region Of Interest:[x1: 173.000,y1: 168.000, x2: 301.000, y2: 284.000]
+20231221_203522 - INFO - Class: EUR-2-euro, Degree Of Certainty: 92, Region Of Interest:[x1: 411.000,y1: 178.000, x2: 555.000, y2: 325.000]
+20231221_203529 - INFO - 127.0.0.1 - - [21/Dec/2023 20:35:29] "GET /wallet HTTP/1.1" 200 -
+20231221_203529 - INFO - 127.0.0.1 - - [21/Dec/2023 20:35:29] "[36mGET /static/styles/wallet_style.css HTTP/1.1[0m" 304 -
+20231221_203547 - INFO - 127.0.0.1 - - [21/Dec/2023 20:35:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+20231221_203547 - INFO - 127.0.0.1 - - [21/Dec/2023 20:35:47] "GET /login HTTP/1.1" 200 -
+20231221_203548 - INFO - 127.0.0.1 - - [21/Dec/2023 20:35:48] "[36mGET /static/styles/main_style.css HTTP/1.1[0m" 304 -
+20231221_203548 - INFO - 127.0.0.1 - - [21/Dec/2023 20:35:48] "[36mGET /static/images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 304 -
+20231221_203548 - INFO - 127.0.0.1 - - [21/Dec/2023 20:35:48] "[33mGET /images/comment-la-monnaie-est-elle-utilisee-dans-leconomie.jpg HTTP/1.1[0m" 404 -

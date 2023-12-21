@@ -6,8 +6,9 @@ from dataclasses import dataclass
 from typing import Dict, Set
 
 import pandas as pd
-import services as _services
-from models import Buckets
+
+import backend.services as _services
+from backend.models import Buckets
 
 
 # pylint: disable=line-too-long
