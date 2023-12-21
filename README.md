@@ -36,7 +36,3 @@ After installing the package, try running your Python code again and see if the 
   - If pytorch or ultralitycs does not work because of some lib.. not found in PATH it is require to install ultralitycs with the following command:
 
     - pip install ultralytics
-
-  - for push to gerrit:
-    (send to gerrit) - git push origin HEAD:refs/for/master
-    (allow to merge on gerrit) - git push origin master
