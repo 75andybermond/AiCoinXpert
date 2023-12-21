@@ -63,3 +63,24 @@ body {
     font-weight: bold;
     color: #375baf; /* Change the color to your desired style */
 }
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.btn {
+  padding: 60px 90px;  /* Adjust padding */
+  font-size: 24px;  /* Adjust font size */
+  color: black;
+  background-color: #4CAF50;
+  cursor: pointer;
+  border-radius: 30px;  /* Adjust border-radius */
+}
+
+.btn:hover {
+  background-color: #45a049;
+}

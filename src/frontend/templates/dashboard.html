@@ -30,8 +30,9 @@
                     <button type="submit" class="btn-btn-danger">Logout</button>
                 </form>
                 <form action="/predict" method="post" enctype="multipart/form-data">
-                    <input type="file" name="image">
-                    <input type="submit" value="Upload">
+                    <input type="file" name="image" id="file" class="inputfile" />
+                    <label for="file" class="btn">UPLOAD</label>
+                    <input type="submit" value="Submit">
                 </form>
                 {% endif %}
                 <!-- Logout button end -->

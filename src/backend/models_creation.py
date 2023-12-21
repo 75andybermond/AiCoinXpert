@@ -30,7 +30,7 @@ class Predictions(_database.Base):
     __table_args__ = {"extend_existing": True}
     id = _sql.Column(
         _sql.Integer, primary_key=True, index=True
-    )  # TODO: Remove this line
+    )
     id_users = _sql.Column(_sql.Integer, _sql.ForeignKey("users.id"), index=True)
     id_coins = _sql.Column(_sql.Integer, _sql.ForeignKey("coins.id"), index=True)
     class_name = _sql.Column(_sql.String, index=True)

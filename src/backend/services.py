@@ -4,13 +4,13 @@ import gzip
 import pickle
 
 import jellyfish
-import minio_minio as _minio
-import models as _models
+import backend.minio_minio as _minio
+import backend.models as _models
 import pandas as pd
 from sqlalchemy import inspect
 from sqlalchemy.exc import OperationalError
 
-import db as _database
+import backend.db as _database
 
 #### Services for database ####
 
